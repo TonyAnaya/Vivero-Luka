@@ -1,0 +1,19 @@
+.contacta{
+    background-color: white;
+    margin:0 auto;
+    margin-top: 70px;
+    padding: 20px;
+    color: gold;
+    border-radius: 30px;
+
+}
+.cont-titulo{
+    text-align:center;
+}
+
+.text-bl{
+    color:black;
+}
+.boton{
+    margin: 0 auto
+}

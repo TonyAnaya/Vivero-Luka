@@ -1,0 +1,17 @@
+.servi{
+    background-color: white;;
+    margin:0 auto;
+    margin-top: 70px;
+    padding: 20px;
+    color: gold;
+    border-radius: 30px;
+}
+.serv-imag{
+    border-radius: 10px;
+    height: 150px;
+    width: 200px;
+}
+.card{
+    color:black;
+    align-items: center;
+}
