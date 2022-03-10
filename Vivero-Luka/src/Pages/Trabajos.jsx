@@ -1,8 +1,13 @@
 import React from 'react'
+import Trabajo from '../components/Trabajos/Trabajos'
 
 const Trabajos = () => {
   return (
-    <div>Trabajos</div>
+    <div style={{backgroundColor:'LightGreen'}}>
+        <br/>
+        <Trabajo/>
+        <br/>
+    </div>
   )
 }
 

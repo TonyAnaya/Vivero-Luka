@@ -13,7 +13,7 @@ import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer/Footer'
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter >
     <Navbar/>
     <Routes>
       <Route path="/" element={<Landing />} />

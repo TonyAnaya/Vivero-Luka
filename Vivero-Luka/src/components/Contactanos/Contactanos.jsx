@@ -35,6 +35,7 @@ const Carrousel = () => {
       </div>
       
       <button className="btn btn-primary boton col-lg-2" type="submit">Enviar</button>
+      
     </div>
   );
 };
