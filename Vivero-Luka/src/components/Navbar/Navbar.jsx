@@ -1,4 +1,5 @@
 import Logo from "./assets/logo.png";
+import { NavLink } from "react-router-dom";
 import './Navbar.css'
 
 const Navbar = () => {
@@ -10,28 +11,62 @@ const Navbar = () => {
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
-          <a className="navbar-brand" href="#"> Viveros Luka</a>
+          <NavLink className="nav-link" to="/">
+            <a className="navbar-brand"> Viveros Luka</a>
+          </NavLink>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">Compensacion Ambiental</a>
+                <NavLink className="nav-link" to="/SobreNosotros">
+                  <a className="nav-link active" aria-current="page">Sobre Nosotros</a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">Catálogo</a>
+                <NavLink className="nav-link" to="/Compensacion">
+                  <a className="nav-link active" aria-current="page">Compensacion Ambiental</a>
+                </NavLink>
               </li>
-              <li className="nav-item dropdown">
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/Catalogo">
+                  <a className="nav-link active" aria-current="page" href="#">Catálogo</a>
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/Trabajos">
+                  <a className="nav-link active" aria-current="page">Trabajos</a>
+                </NavLink>
+              </li>
+              <li className="nav-link dropdown">
                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Servicios
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a className="dropdown-item" href="#">Proyectos de Reforestación</a></li>
-                  <li><a className="dropdown-item" href="#">Jardinería</a></li>
-                  <li><a className="dropdown-item" href="#">Paisajismo</a></li>
-                  <li><a className="dropdown-item" href="#">Concejos y Cuidados</a></li>
+                  <li>
+                    <NavLink className="nav-link" to="/Servicios">
+                      <a className="dropdown-item">Proyectos de Reforestación</a>
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink className="nav-link" to="/Servicios">
+                      <a className="dropdown-item">Jardinería</a>
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink className="nav-link" to="/Servicios">
+                      <a className="dropdown-item" href="#">Paisajismo</a>
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink className="nav-link" to="/Servicios">
+                      <a className="dropdown-item" href="#">Concejos y Cuidados</a>
+                    </NavLink>
+                  </li>
                 </ul>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">Contacto</a>
+                <NavLink className="nav-link" to="/Contacto">
+                  <a className="nav-link active" aria-current="page" href="#">Contacto</a>
+                </NavLink>
               </li>
             </ul>
           </div>
