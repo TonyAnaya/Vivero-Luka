@@ -8,7 +8,6 @@ const Carrousel = () => {
     <div className="container row servi">
       <h1>Servicios</h1>
       <div className="container row">
-
         <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
           <div className="col">
             <div className="card">

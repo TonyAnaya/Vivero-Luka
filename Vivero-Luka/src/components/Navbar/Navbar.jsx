@@ -13,60 +13,60 @@ const Navbar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <NavLink className="nav-link" to="/">
-            <a className="navbar-brand"> Viveros Luka</a>
+            <h2 className="navbar-brand"> Viveros Luka</h2>
           </NavLink>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <NavLink className="nav-link" to="/SobreNosotros">
-                  <a className="nav-link active" aria-current="page">Sobre Nosotros</a>
+                  <h5 className="nav-link active" aria-current="page">Sobre Nosotros</h5>
                 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/Compensacion">
-                  <a className="nav-link active" aria-current="page">Compensacion Ambiental</a>
+                  <h5 className="nav-link active" aria-current="page">Compensacion Ambiental</h5>
                 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/Catalogo">
-                  <a className="nav-link active" aria-current="page" href="#">Catálogo</a>
+                  <h5 className="nav-link active" aria-current="page" href="#">Catálogo</h5>
                 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/Trabajos">
-                  <a className="nav-link active" aria-current="page">Trabajos</a>
+                  <h5 className="nav-link active" aria-current="page">Trabajos</h5>
                 </NavLink>
               </li>
               <li className="nav-link dropdown">
-                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <h5 className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Servicios
-                </a>
+                </h5>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
                     <NavLink className="nav-link" to="/Servicios">
-                      <a className="dropdown-item">Proyectos de Reforestación</a>
+                      <h5 className="dropdown-item">Proyectos de Reforestación</h5>
                     </NavLink>
                   </li>
                   <li>
                     <NavLink className="nav-link" to="/Servicios">
-                      <a className="dropdown-item">Jardinería</a>
+                      <h5 className="dropdown-item">Jardinería</h5>
                     </NavLink>
                   </li>
                   <li>
                     <NavLink className="nav-link" to="/Servicios">
-                      <a className="dropdown-item" href="#">Paisajismo</a>
+                      <h5 className="dropdown-item" >Paisajismo</h5>
                     </NavLink>
                   </li>
                   <li>
                     <NavLink className="nav-link" to="/Servicios">
-                      <a className="dropdown-item" href="#">Concejos y Cuidados</a>
+                      <h5 className="dropdown-item" href="#">Concejos y Cuidados</h5>
                     </NavLink>
                   </li>
                 </ul>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/Contacto">
-                  <a className="nav-link active" aria-current="page" href="#">Contacto</a>
+                  <h5 className="nav-link active" aria-current="page" href="#">Contacto</h5>
                 </NavLink>
               </li>
             </ul>

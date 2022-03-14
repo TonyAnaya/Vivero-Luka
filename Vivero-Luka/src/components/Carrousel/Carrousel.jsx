@@ -1,86 +1,61 @@
 import Cancha from "./assets/Cancha.jpeg";
 import Casa from "./assets/Casa.jpeg";
 import Pared from "./assets/Pared.jpeg";
+import "./Carrousel.css"
 
 const Carrousel = () => {
   return (
-    <>
-      <div
-        id="carouselExampleCaptions"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src={Cancha} class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
+    <div className="container contecarrusel">
+      <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <img src={Cancha} className="d-block w-100 imagencita" alt="..." />
+            <div className="carousel-caption d-none d-md-block">
+              <h5>La Cancha</h5>
               <p>
-                Some representative placeholder content for the first slide.
+                Paisajismo y restauración en cancha de juegos
               </p>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src={Casa} class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
+          <div className="carousel-item">
+            <img src={Casa} className="d-block w-100 imagencita" alt="..." />
+            <div className="carousel-caption d-none d-md-block">
+              <h5>Casa Verde</h5>
               <p>
-                Some representative placeholder content for the second slide.
+                Proyecto de jardineria en propiedad
               </p>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src={Pared} class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
+          <div className="carousel-item">
+            <img src={Pared} className="d-block w-100 imagencita" alt="..." />
+            <div className="carousel-caption d-none d-md-block">
+              <h5>Pulmon vertical</h5>
               <p>
-                Some representative placeholder content for the third slide.
+                Adaptación verde en pared
               </p>
             </div>
           </div>
         </div>
         <button
-          class="carousel-control-prev"
+          className="carousel-control-prev"
           type="button"
           data-bs-target="#carouselExampleCaptions"
           data-bs-slide="prev"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Previous</span>
         </button>
         <button
-          class="carousel-control-next"
+          className="carousel-control-next"
           type="button"
           data-bs-target="#carouselExampleCaptions"
           data-bs-slide="next"
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Next</span>
         </button>
       </div>
-    </>
+    </div>
   );
 };
 
