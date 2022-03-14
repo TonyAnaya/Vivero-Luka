@@ -1,0 +1,24 @@
+.titulo-servicio{
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.descripcion{
+    color:black;
+    width:80%;
+    margin: 0 auto
+}
+.serviAcor{
+    background-color: white;
+    margin:0 auto;
+    padding: 20px;
+    color: gold;
+    border-radius: 30px;
+}
+.accordion-item{
+    border:none
+}
+.acordionAncho{
+    width: 80%;
+    margin:0 auto
+}

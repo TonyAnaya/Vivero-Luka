@@ -1,8 +1,12 @@
-import React from 'react'
+import ServiciosAcor from '../components/ServiciosAcor/ServiciosAcor';
 
 const Servicios = () => {
   return (
-    <div>Servicios</div>
+    <div style={{backgroundColor:'LightGreen'}}>
+      <br/>
+      <ServiciosAcor/>
+      <br/>
+    </div>
   )
 }
 
