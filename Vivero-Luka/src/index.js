@@ -11,6 +11,7 @@ import Trabajos from "./Pages/Trabajos";
 import Listar from "./Pages/Listar";
 import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer/Footer'
+import "./index.css"
 
 ReactDOM.render(
   <BrowserRouter >

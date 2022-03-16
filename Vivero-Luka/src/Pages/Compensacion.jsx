@@ -2,7 +2,7 @@ import Contactanos from '../components/Contactanos/Contactanos'
 
 const Compensacion = () => {
   return (
-    <div style={{backgroundColor:'LightGreen'}}>
+    <div className="page">
       <br/>
       <Contactanos/>
       <br/>

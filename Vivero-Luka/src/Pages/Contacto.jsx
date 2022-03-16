@@ -4,7 +4,7 @@ import Contactanos from '../components/Contactanos/Contactanos'
 
 const Contacto = () => {
   return (
-    <div style={{backgroundColor:'LightGreen'}}>
+    <div className="page">
         <br/>
         <Contactanos/>
         <br/>

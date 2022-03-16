@@ -1,9 +1,17 @@
+import Carrousel from '../components/Carrousel/Carrousel';
+import MisVis from '../components/MisVis/MisVis';
+import Cifras from '../components/Cifras/Cifras';
 
 const SobreNosotros = () => {
   return (
-    <div style={{backgroundColor:'LightGreen'}}>
+    <div className="page">
       <br/>
-      SobreNosotros
+      <Carrousel/>
+      <br/>
+      <Cifras/>
+      <br/>
+      <MisVis/>
+      <br/>
     </div>
   )
 }

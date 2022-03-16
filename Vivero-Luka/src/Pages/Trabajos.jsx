@@ -3,7 +3,7 @@ import Trabajo from '../components/Trabajos/Trabajos'
 
 const Trabajos = () => {
   return (
-    <div style={{backgroundColor:'LightGreen'}}>
+    <div className="page">
         <br/>
         <Trabajo/>
         <br/>

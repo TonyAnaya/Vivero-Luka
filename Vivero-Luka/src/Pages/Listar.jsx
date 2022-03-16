@@ -2,7 +2,7 @@
 
 const Listar = () => {
   return (
-    <div>Listar</div>
+    <div className="page">Listar</div>
   )
 }
 

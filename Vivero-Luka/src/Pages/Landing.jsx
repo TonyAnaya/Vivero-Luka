@@ -6,7 +6,7 @@ import MisVis from '../components/MisVis/MisVis';
 
 const Landing = () => {
   return (
-    <div style={{backgroundColor:'LightGreen'}}>
+    <div className="page">
       <br/>
       <Carrousel/>
       <br/>
