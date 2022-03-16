@@ -4,7 +4,6 @@
     z-index: 10;
     width:100%;
 }
-
 .logo-nav{
     width: 50px;
     margin: 10px;
@@ -15,4 +14,7 @@
 .space{
     width:100%;
     height:80px
+}
+.logo-nombre{
+    color:white;
 }

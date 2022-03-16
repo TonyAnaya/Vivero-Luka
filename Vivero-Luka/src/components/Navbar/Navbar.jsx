@@ -13,7 +13,7 @@ const Navbar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <NavLink className="nav-link" to="/">
-            <h2 className="navbar-brand"> Viveros Luka</h2>
+            <h1 className="logo-nombre"> Viveros Luka</h1>
           </NavLink>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">

@@ -1,8 +1,12 @@
-import React from 'react'
+import Contactanos from '../components/Contactanos/Contactanos'
 
 const Catalogo = () => {
   return (
-    <div>Catalogo</div>
+    <div style={{backgroundColor:'LightGreen'}}>
+      <br/>
+      <Contactanos/>
+      <br/>
+    </div>
   )
 }
 

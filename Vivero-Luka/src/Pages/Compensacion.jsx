@@ -1,8 +1,12 @@
-import React from 'react'
+import Contactanos from '../components/Contactanos/Contactanos'
 
 const Compensacion = () => {
   return (
-    <div>Compensacion</div>
+    <div style={{backgroundColor:'LightGreen'}}>
+      <br/>
+      <Contactanos/>
+      <br/>
+    </div>
   )
 }
 

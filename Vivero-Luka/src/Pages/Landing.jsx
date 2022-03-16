@@ -1,4 +1,3 @@
-import React from 'react';
 import Carrousel from '../components/Carrousel/Carrousel';
 import Servicios from '../components/Servicios/Servicios'
 import Contactanos from '../components/Contactanos/Contactanos'
@@ -8,6 +7,7 @@ import MisVis from '../components/MisVis/MisVis';
 const Landing = () => {
   return (
     <div style={{backgroundColor:'LightGreen'}}>
+      <br/>
       <Carrousel/>
       <br/>
       <MisVis/>

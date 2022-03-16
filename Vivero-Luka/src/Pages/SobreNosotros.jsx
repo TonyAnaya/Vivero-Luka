@@ -1,8 +1,10 @@
-import React from 'react'
 
 const SobreNosotros = () => {
   return (
-    <div>SobreNosotros</div>
+    <div style={{backgroundColor:'LightGreen'}}>
+      <br/>
+      SobreNosotros
+    </div>
   )
 }
 

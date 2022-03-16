@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Trabajo from '../components/Trabajos/Trabajos'
 
 const Trabajos = () => {
