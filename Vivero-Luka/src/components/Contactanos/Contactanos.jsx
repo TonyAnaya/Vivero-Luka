@@ -26,7 +26,7 @@ const Carrousel = () => {
         </div>
         <div className='col-6'>
           <div className="mb-3">
-            <label for="exampleFormControlTextarea1" className="form-label">Example textarea</label>
+            <label for="exampleFormControlTextarea1" className="form-label">Mensaje</label>
             <textarea className="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
           </div>
         </div>
@@ -35,6 +35,7 @@ const Carrousel = () => {
       </div>
       
       <button className="btn btn-primary boton col-lg-2" type="submit">Enviar</button>
+      
     </div>
   );
 };
