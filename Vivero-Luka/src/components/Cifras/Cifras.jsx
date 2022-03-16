@@ -5,7 +5,9 @@ import Pared from "./assets/Pared.jpeg";
 
 const Cifras = () => {
   return (
-    <div className="container servi row">
+    <div className="container contene row">
+        <h1 className="tarje">Nuestros Números</h1>
+        <hr/>
         <div className="col-4">
             <div className="card tarje">
                 <div className="card-body">
