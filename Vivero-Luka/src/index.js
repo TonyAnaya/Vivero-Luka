@@ -8,7 +8,7 @@ import Contacto from "./Pages/Contacto";
 import Servicios from "./Pages/Servicios";
 import SobreNosotros from "./Pages/SobreNosotros";
 import Trabajos from "./Pages/Trabajos";
-import Listar from "./Pages/Listar";
+import ListarProspectos from "./Pages/ListarProspectos";
 import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer/Footer'
 import "./index.css"
@@ -24,7 +24,7 @@ ReactDOM.render(
       <Route path="/Servicios" element={<Servicios />} />
       <Route path="/SobreNosotros" element={<SobreNosotros />} />
       <Route path="/Trabajos" element={<Trabajos />} />
-      <Route path="/Listar" element={<Listar />} />
+      <Route path="/RutaSecreta" element={<ListarProspectos />} />
     </Routes>
     <Footer/>
   </BrowserRouter>,
