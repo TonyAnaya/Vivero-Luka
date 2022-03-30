@@ -12,7 +12,7 @@ const MisVis = () => {
                     <div class="d-block w-100">
                         <div class="card text-center">
                             <div class="card-body">
-                                <h5 class="card-title">Misión</h5>
+                                <h5 class="card-title">Nuestra Misión</h5>
                                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                             </div>
                         </div>
@@ -22,7 +22,7 @@ const MisVis = () => {
                     <div class="d-block w-100">
                         <div class="card text-center">
                             <div class="card-body">
-                                <h5 class="card-title">Visión</h5>
+                                <h5 class="card-title">Nuestra Visión</h5>
                                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                             </div>
                         </div>
@@ -32,7 +32,7 @@ const MisVis = () => {
                     <div class="d-block w-100">
                         <div class="card text-center">
                             <div class="card-body">
-                                <h5 class="card-title">Valores</h5>
+                                <h5 class="card-title">Nuestros Valores</h5>
                                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                             </div>
                         </div>

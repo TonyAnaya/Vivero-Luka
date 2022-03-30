@@ -3,17 +3,23 @@ import Servicios from '../components/Servicios/Servicios'
 import Contactanos from '../components/Contactanos/Contactanos'
 import TuMejorOpcion from '../components/TuMejorOpcion/TuMejorOpcion';
 import MisVis from '../components/MisVis/MisVis';
+import NuestrosClientes from '../components/NuestrosClientes/NuestrosClientes';
+import QuienesSomos from '../components/QuienesSomos/QuienesSomos'
 
 const Landing = () => {
   return (
     <div className="page">
       <Carrousel/>
       <br/>
+      <QuienesSomos/>
+      <br />
       <MisVis/>
       <br/>
       <Servicios/>
       <br/>
       <TuMejorOpcion/>
+      <br />
+      <NuestrosClientes/>
       <br/>
       <Contactanos/>
       <br/>

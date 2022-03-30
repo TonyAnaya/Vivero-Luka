@@ -12,7 +12,7 @@ const Carrousel = () => {
           <div className="carousel-item active">
             <img src={fotoTitulo} className="d-block w-100 imagencita" alt="..." />
             <div className="carousel-caption d-none d-md-block" id='tituloImg'>
-              <h5>Viveros Luka</h5>
+              <h5>Viveros Rulcas</h5>
               <p>
                 Resolviendo tus necesidades de manera natural
               </p>

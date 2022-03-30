@@ -1,4 +1,5 @@
-import Logo from "./assets/logo.png";
+import LogoIso from "./assets/isotiporulcas.png";
+import Logo from "./assets/logotiporulcas.png";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
@@ -8,9 +9,9 @@ const Navbar = () => {
       <div className="space"></div>
       <nav className="navbar navbar-expand-lg navbar-bg navbar-dark">
         <div className="container-fluid">
-          <img src={Logo} className="logo-nav"></img>
           <NavLink className="nav-link" to="/">
-            <h1 className="logo-nombre"> Viveros Luka</h1>
+          <img src={Logo} className="logo-nav"></img>
+          <img src={LogoIso} className="logo-nav-iso"></img>
           </NavLink>
           <button
             className="navbar-toggler"
@@ -44,13 +45,6 @@ const Navbar = () => {
                 <NavLink className="nav-link" to="/Catalogo">
                   <h5 className="nav-link active" aria-current="page" href="#">
                     Catálogo
-                  </h5>
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/Trabajos">
-                  <h5 className="nav-link active" aria-current="page">
-                    Trabajos
                   </h5>
                 </NavLink>
               </li>

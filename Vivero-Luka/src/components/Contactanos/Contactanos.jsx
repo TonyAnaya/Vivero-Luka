@@ -19,7 +19,8 @@ const Carrousel = () => {
       nombre: event.target[0].value,
       telefono: event.target[1].value,
       correo_electronico: event.target[2].value,
-      mensaje: event.target[3].value,
+      empresa: event.target[3].value,
+      mensaje: event.target[4].value,
     };
     setProspect(prospectoCreado);
     let response = await postProspect(prospectoCreado)
@@ -71,6 +72,17 @@ const Carrousel = () => {
                 placeholder="name@example.com"
               />
             </div>
+            <div className="mb-3">
+              <label for="exampleFormControlInput3" className="form-label">
+                Empresa
+              </label>
+              <input
+                type="text"
+                className="form-control"
+                id="exampleFormControlInput3"
+                placeholder="Indica de que empresa nos contactas"
+              />
+            </div>
           </div>
           <div className="col-6">
             <div className="mb-3">
@@ -80,12 +92,12 @@ const Carrousel = () => {
               <textarea
                 className="form-control"
                 id="exampleFormControlTextarea1"
-                rows="8"
+                rows="12"
               ></textarea>
             </div>
           </div>
         </div>
-        <button className="btn btn-primary boton col-lg-2" type="submit">
+        <button className="btn btn-primary boton col-lg-2 btn-contact" type="submit">
           Enviar
         </button>
       </form>

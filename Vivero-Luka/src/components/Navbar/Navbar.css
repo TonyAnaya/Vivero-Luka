@@ -5,8 +5,7 @@
     width:100%;
 }
 .logo-nav{
-    width: 70px;
-    margin: 10px;
+    width: 280px;
 }
 .navbar-bg{
     background-color: #3BA338;
@@ -17,4 +16,15 @@
 }
 .logo-nombre{
     color:white;
+}
+
+.logo-nav-iso{
+    display: none;
+}
+#navbarSupportedContent h5{
+    font-size: 1.5rem;
+    margin: 0 20px;
+}
+#navbarSupportedContent h5:hover{
+    color: rgb(214, 214, 214)
 }
