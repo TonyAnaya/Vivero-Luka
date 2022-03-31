@@ -4,8 +4,8 @@ import Casa from "./assets/Casa.jpeg";
 import Pared from "./assets/Pared.jpeg";
 const TuMejorOpcion = () => {
   return (
-    <div className="container conteOpc row">
-        <h1 className="titulo">Somos tu mejor opción</h1>
+    <div className="container conteOpc row servi">
+        <h1 className="titulo">¡Somos tu mejor opción!</h1>
         <div className="card mb-3" >
           <div className="row g-0">
             <div className="col-md-6">

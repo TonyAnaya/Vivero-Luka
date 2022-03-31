@@ -1,4 +1,4 @@
-import Logo from "./assets/logo.png";
+import Logo from "./assets/isotiporulcas.png";
 import './Footer.css'
 
 const Footer = () => {
@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="d-flex footy">
         <div className="foot-logo">
             <img src={Logo} className="logo-foot"></img>
-            <h1 href="#"> Viveros Luka</h1>
+            <h1 href="#"> Viveros Rulcas</h1>
             <h6>Desarrollado por &lt;Insert Name&gt;</h6>
         </div>
     </div>
