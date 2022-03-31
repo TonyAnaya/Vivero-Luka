@@ -32,7 +32,7 @@ const Carrousel = () => {
 
   return (
     <div className="container row contacta">
-      <h1 className="cont-titulo">Contactanos</h1>
+      <h1 className="cont-titulo">Contáctanos</h1>
       <form onSubmit={handleSubmit}>
         <div className="container row text-bl">
           <div className="col-6">
@@ -50,7 +50,7 @@ const Carrousel = () => {
 
             <div className="mb-3">
               <label for="exampleFormControlInput2" className="form-label">
-                Telefono
+                Teléfono
               </label>
               <input
                 type="text"

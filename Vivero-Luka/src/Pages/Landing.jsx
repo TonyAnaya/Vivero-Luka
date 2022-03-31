@@ -7,7 +7,6 @@ import MisVis from '../components/MisVis/MisVis';
 const Landing = () => {
   return (
     <div className="page">
-      <br/>
       <Carrousel/>
       <br/>
       <MisVis/>
