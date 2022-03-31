@@ -4,7 +4,7 @@ import empresa from './assets/empresa.jpg'
 
 const NuestrosClientes = () => {
   return (
-    <div className="container row servi">
+    <div className="container row clien">
     <h1 className='tituloClientes'>Algunos de nuestros clientes</h1>
     <div className="container row" id='flex-container'>
       <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4" id='flex'>

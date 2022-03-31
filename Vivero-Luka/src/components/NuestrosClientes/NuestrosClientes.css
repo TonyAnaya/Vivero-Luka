@@ -1,4 +1,12 @@
 .tituloClientes{
     text-align: center;
     margin: 20px 0px;
+    color:white;
+    font-size: 5vmax;
+}
+.clien{
+    background-color: #A9CE93;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 5px;
 }
