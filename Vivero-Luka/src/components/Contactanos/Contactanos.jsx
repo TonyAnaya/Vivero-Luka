@@ -22,7 +22,7 @@ const Carrousel = () => {
       mensaje: event.target[3].value,
     };
     setProspect(prospectoCreado);
-    let response = await postProspect(prospectoCreado)
+    let response = await postProspect(prospect)
     return response
 
   };
