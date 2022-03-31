@@ -2,11 +2,11 @@ import "./Testimonios.css";
 
 const Testimonio = () => {
   return (
-    <div className="container row servi">
+    <div className="container row clien">
       <div className="container row" id='flex-container'>
         <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4" id='flex'>
           <div className="col">
-              <div className="card">
+              <div className="card clien">
                 <div className="card-body">
                   <h3>
                     <cite>"Reforestación facil y eficiente"</cite>
@@ -16,7 +16,7 @@ const Testimonio = () => {
               </div>
           </div>
           <div className="col">
-              <div className="card">
+              <div className="card clien">
                 <div className="card-body">
                   <h3>
                     <cite>"Mi jardín ahora es de película"</cite>
@@ -26,7 +26,7 @@ const Testimonio = () => {
               </div>
           </div>
           <div className="col">
-              <div className="card">
+              <div className="card clien">
                 <div className="card-body">
                   <h3>
                     <cite>"Proceso agil y muy sencillo"</cite>
@@ -36,7 +36,7 @@ const Testimonio = () => {
               </div>
           </div>
           <div className="col">
-              <div className="card">
+              <div className="card clien">
                 <div className="card-body">
                   <h3>
                     <cite>"Cuidar mis platas ahora es más fácil"</cite>
