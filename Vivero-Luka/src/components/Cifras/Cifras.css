@@ -1,7 +1,7 @@
 .tarje{
     padding:20px;
     background-color: white;
-    color: gold;
+    color: #aecf3e;
     margin:0 auto;
     border-radius: 30px;
 }
@@ -9,10 +9,9 @@
     margin: 0 auto;
     padding: 0;
     text-align: center;
-    color: gold;
+    color: #aecf3e;
 }
 .contene div div img{
-    border-radius: 40%;
     width: 250px;
     height: 250px;
 }
