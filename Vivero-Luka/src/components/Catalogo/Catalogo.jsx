@@ -156,7 +156,6 @@ const Catalogo = () => {
           );
         })}
       </div>
-      <br />
       {/* <div className="col-3">
         <div className="card">
           <img src={Cancha} className="card-img-top imag" alt="..." />

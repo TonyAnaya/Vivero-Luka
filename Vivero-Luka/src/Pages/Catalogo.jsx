@@ -4,8 +4,6 @@ import Catalog from '../components/Catalogo/Catalogo'
 const Catalogo = () => {
   return (
     <div className="page">
-      <br/>
-      <br />
       <br />
       <Catalog/>
       <br/>
