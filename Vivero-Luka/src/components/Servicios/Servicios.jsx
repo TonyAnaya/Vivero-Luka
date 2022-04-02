@@ -12,6 +12,7 @@ const Carrousel = () => {
           <div className="col">
             <div className="card">
               <img src={Casa} className="card-img-top serv-imag " alt="..." />
+              
               <div className="card-body">
                 <h5 className="card-title">Compensación Ambiental</h5>
               </div>

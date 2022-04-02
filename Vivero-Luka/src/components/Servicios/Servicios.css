@@ -7,8 +7,13 @@
 }
 .serv-imag {
   border-radius: 5px;
-  height: 200px;
+  height: 180px;
   width: 300px;
+}
+
+.serv-imag:hover {
+  border-radius: 5px;
+
 }
 .card {
   color: black;

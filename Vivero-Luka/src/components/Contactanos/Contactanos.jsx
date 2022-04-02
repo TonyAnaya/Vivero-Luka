@@ -33,7 +33,7 @@ const Carrousel = () => {
 
   return (
     <div className="container row contacta">
-      <h1 className="cont-titulo">Contáctanos</h1>
+      <h1 className="cont-titulo">¡Cotiza con nosotros!</h1>
       <form onSubmit={handleSubmit}>
         <div className="container row text-bl">
           <div className="col-6">

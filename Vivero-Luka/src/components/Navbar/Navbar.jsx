@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
+  // TODO: Cambiar hamburguesa y logo en responsive
   return (
     <div>
       <div className="space"></div>
