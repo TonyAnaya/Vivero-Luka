@@ -5,6 +5,8 @@ const Catalogo = () => {
   return (
     <div className="page">
       <br/>
+      <br />
+      <br />
       <Catalog/>
       <br/>
       <Contactanos/>

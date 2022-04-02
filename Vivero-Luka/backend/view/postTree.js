@@ -1,4 +1,4 @@
-const postTreeController = require("../controller/postTree");
+const postTreeController = require("../controller/postTree.js");
 
 module.exports = (app) => {
   app.post("/post-tree", async (req, res) => {

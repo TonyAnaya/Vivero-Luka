@@ -41,7 +41,7 @@ const Testimonio = () => {
                   <h3>
                     <cite>"Cuidar mis platas ahora es más fácil"</cite>
                   </h3>
-                  <cite> Laura Sánchez - Concejos y Cuidados</cite>
+                  <cite> Laura Sánchez - Consejos y Cuidados</cite>
                 </div>
               </div>
           </div>
