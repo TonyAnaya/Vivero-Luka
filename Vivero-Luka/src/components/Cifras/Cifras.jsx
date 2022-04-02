@@ -1,7 +1,7 @@
 import "./Cifras.css"
-import Cancha from "./assets/Cancha.jpeg";
-import Casa from "./assets/Casa.jpeg";
-import Pared from "./assets/Pared.jpeg";
+import Clien from "./assets/Clien.png";
+import Arboles from "./assets/Arboles.png";
+import Exp from "./assets/Exp.png";
 
 const Cifras = () => {
   return (
@@ -13,7 +13,7 @@ const Cifras = () => {
                 <div className="card-body">
                     <h3 className="card-title">Clientes Atendidos</h3>
                 </div>
-                <img src={Cancha} className="card-img-top" alt="..."/>
+                <img src={Clien} className="card-img-top" alt="..."/>
             </div>
         </div>
         <div className="col-4">
@@ -21,15 +21,15 @@ const Cifras = () => {
                 <div className="card-body">
                     <h3 className="card-title">Arboles Plantados</h3>
                 </div>
-                <img src={Cancha} className="card-img-top" alt="..."/>
+                <img src={Arboles} className="card-img-top" alt="..."/>
             </div>
         </div>
         <div className="col-4">
             <div className="card tarje">
                 <div className="card-body">
-                    <h3 className="card-title">Clientes Atendidos</h3>
+                    <h3 className="card-title">Años de experiencia</h3>
                 </div>
-                <img src={Cancha} className="card-img-top" alt="..."/>
+                <img src={Exp} className="card-img-top" alt="..."/>
             </div>
         </div>
     </div>

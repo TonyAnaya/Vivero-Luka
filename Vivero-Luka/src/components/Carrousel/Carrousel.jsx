@@ -1,40 +1,41 @@
-import Cancha from "./assets/Cancha.jpeg";
-import Casa from "./assets/Casa.jpeg";
-import Pared from "./assets/Pared.jpeg";
+import fotoTitulo from "./assets/plantas.jpg";
+import arbolTitulo from "./assets/tierra.jpg"
+import plantarTitulo from "./assets/plantar.jpg"
+
 import "./Carrousel.css"
 
 const Carrousel = () => {
   return (
-    <div className="container">
+    <div >
       <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={Cancha} className="d-block w-100 imagencita" alt="..." />
-            <div className="carousel-caption d-none d-md-block">
-              <h5>La Cancha</h5>
+            <img src={fotoTitulo} className="d-block w-100 imagencita" alt="..." />
+            <div className="carousel-caption d-none d-md-block" id='tituloImg'>
+              <h5>Viveros Rulcas</h5>
               <p>
-                Paisajismo y restauración en cancha de juegos
+                Resolviendo tus necesidades de manera natural
               </p>
             </div>
           </div>
-          <div className="carousel-item">
-            <img src={Casa} className="d-block w-100 imagencita" alt="..." />
-            <div className="carousel-caption d-none d-md-block">
-              <h5>Casa Verde</h5>
+           <div className="carousel-item">
+            <img src={arbolTitulo} className="d-block w-100 imagencita"  id ='imagen-carrusel'alt="..." />
+            <div className="carousel-caption d-none d-md-block" id='tituloImg'>
+              <h5>Compensación Ambiental</h5>
               <p>
-                Proyecto de jardineria en propiedad
+                Te acompañamos en todo el proceso
               </p>
             </div>
           </div>
-          <div className="carousel-item">
-            <img src={Pared} className="d-block w-100 imagencita" alt="..." />
-            <div className="carousel-caption d-none d-md-block">
-              <h5>Pulmon vertical</h5>
+           <div className="carousel-item">
+            <img src={plantarTitulo} className="d-block w-100 imagencita" alt="..." />
+            <div className="carousel-caption d-none d-md-block" id='tituloImg'>
+              <h5>Paisajismo</h5>
               <p>
-                Adaptación verde en pared
+                Impulsamos tus proyectos
               </p>
-            </div>
-          </div>
+            </div>  
+          </div> 
         </div>
       </div>
     </div>

@@ -1,17 +1,30 @@
-.servi{
-    background-color: white;
-    margin:0 auto;
-    padding: 20px;
-    color: gold;
-    border-radius: 30px;
+.servi {
+  background-color: white;
+  margin: 0 auto;
+  padding: 5px;
+  color: #aecf3e;
+  border-radius: 5px;
 }
-.serv-imag{
-    border-radius: 10px;
-    height: 150px;
-    width: 200px;
+.serv-imag {
+  border-radius: 5px;
+  height: 180px;
+  width: 300px;
 }
-.card{
-    color:black;
-    align-items: center;
-    border: none;
+
+.serv-imag:hover {
+  border-radius: 5px;
+
 }
+.card {
+  color: black;
+  align-items: center;
+  border: none;
+}
+#flex-container {
+  margin: 0 auto;
+}
+#flex {
+  margin: 0 auto;
+}
+
+

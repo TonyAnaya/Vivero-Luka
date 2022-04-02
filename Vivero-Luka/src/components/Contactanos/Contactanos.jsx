@@ -2,7 +2,7 @@ import { React, useState } from "react";
 import { postProspect } from "../../api/api";
 import "./Contactanos.css";
 
-const Carrousel = () => {
+const Contacta = () => {
   const [prospect, setProspect] = useState({
     nombre: "",
     telefono: "",
@@ -19,10 +19,11 @@ const Carrousel = () => {
       nombre: event.target[0].value,
       telefono: event.target[1].value,
       correo_electronico: event.target[2].value,
-      mensaje: event.target[3].value,
+      empresa: event.target[3].value,
+      mensaje: event.target[4].value,
     };
     setProspect(prospectoCreado);
-    let response = await postProspect(prospectoCreado)
+    let response = await postProspect(prospect)
     return response
 
   };
@@ -32,12 +33,12 @@ const Carrousel = () => {
 
   return (
     <div className="container row contacta">
-      <h1 className="cont-titulo">Contactanos</h1>
+      <h1 className="cont-titulo">¡Cotiza con nosotros!</h1>
       <form onSubmit={handleSubmit}>
         <div className="container row text-bl">
           <div className="col-6">
             <div className="mb-3">
-              <label for="exampleFormControlInput1" className="form-label">
+              <label htmlFor="exampleFormControlInput1" className="form-label">
                 Nombre
               </label>
               <input
@@ -49,8 +50,8 @@ const Carrousel = () => {
             </div>
 
             <div className="mb-3">
-              <label for="exampleFormControlInput2" className="form-label">
-                Telefono
+              <label htmlFor="exampleFormControlInput2" className="form-label">
+                Teléfono
               </label>
               <input
                 type="text"
@@ -61,7 +62,7 @@ const Carrousel = () => {
             </div>
 
             <div className="mb-3">
-              <label for="exampleFormControlInput3" className="form-label">
+              <label htmlFor="exampleFormControlInput3" className="form-label">
                 Email
               </label>
               <input
@@ -71,26 +72,69 @@ const Carrousel = () => {
                 placeholder="name@example.com"
               />
             </div>
+            <div className="mb-3">
+              <label htmlFor="exampleFormControlInput3" className="form-label">
+                Empresa
+              </label>
+              <input
+                type="text"
+                className="form-control"
+                id="exampleFormControlInput3"
+                placeholder="Indica de que empresa nos contactas"
+              />
+            </div>
           </div>
           <div className="col-6">
             <div className="mb-3">
-              <label for="exampleFormControlTextarea1" className="form-label">
+              <label htmlFor="exampleFormControlTextarea1" className="form-label">
                 Mensaje
               </label>
               <textarea
                 className="form-control"
                 id="exampleFormControlTextarea1"
-                rows="8"
+                rows="12"
               ></textarea>
             </div>
           </div>
         </div>
-        <button className="btn btn-primary boton col-lg-2" type="submit">
+
+
+
+        <button type="submit" className="btn btn-primary boton col-lg-2 btn-contact" data-bs-toggle="modal" data-bs-target="#exampleModal">
           Enviar
         </button>
+
+        <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div className="modal-dialog modal-dialog-centered">
+                <div className="modal-content">
+                    <div className="modal-header">
+                        <h5 className="modal-title" id="exampleModalLabel">Mensaje enviado con éxito</h5>
+                        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div className="modal-body">
+                        
+                        <div className="card" >
+                            <p>El mensaje se enviío con exito, en poco tiempo nos contactaremos contigo</p>
+                        </div>
+                    </div>
+                    <div className="modal-footer">
+                        <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
       </form>
+
     </div>
   );
 };
 
-export default Carrousel;
+export default Contacta;

@@ -2,9 +2,9 @@
     background-color: white;
     margin:0 auto;
     margin-top: 0px;
-    padding: 20px;
-    color: gold;
-    border-radius: 30px;
+    padding: 5px;
+    color: #AECF3E;
+    border-radius: 5px;
 }
 .cont-titulo{
     text-align:left;
@@ -15,4 +15,10 @@
 }
 .boton{
     margin: 0 auto
+}
+
+.btn-contact{
+    margin: 20px;
+    background-color: #AECF3E;
+    border: 0 transparent;
 }

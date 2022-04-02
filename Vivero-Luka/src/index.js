@@ -11,6 +11,7 @@ import Trabajos from "./Pages/Trabajos";
 import ListarProspectos from "./Pages/ListarProspectos";
 import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer/Footer'
+import Whatsapp from "./components/Whatsapp/Whatsapp";
 import "./index.css"
 
 ReactDOM.render(
@@ -26,6 +27,7 @@ ReactDOM.render(
       <Route path="/Trabajos" element={<Trabajos />} />
       <Route path="/RutaSecreta" element={<ListarProspectos />} />
     </Routes>
+    <Whatsapp/>
     <Footer/>
   </BrowserRouter>,
   document.getElementById("root")
