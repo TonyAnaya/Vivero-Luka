@@ -1,12 +1,24 @@
-button {
-    background-color: transparent;
-    border: none;
-    outline: none;
-    cursor: pointer;
-  }
-  .on {
-    color: #000;
-  }
-  .off {
-    color: #ccc;
-  }
+.servi {
+  background-color: white;
+  margin: 0 auto;
+  padding: 5px;
+  color: #aecf3e;
+  border-radius: 5px;
+}
+.serv-imag {
+  border-radius: 5px;
+  height: 200px;
+  width: 300px;
+}
+.card {
+  color: black;
+  align-items: center;
+  border: none;
+}
+#flex-container {
+  margin: 0 auto;
+}
+#flex {
+  margin: 0 auto;
+}
+

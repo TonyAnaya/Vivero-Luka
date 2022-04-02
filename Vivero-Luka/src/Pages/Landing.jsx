@@ -5,7 +5,7 @@ import TuMejorOpcion from '../components/TuMejorOpcion/TuMejorOpcion';
 import MisVis from '../components/MisVis/MisVis';
 import NuestrosClientes from '../components/NuestrosClientes/NuestrosClientes';
 import QuienesSomos from '../components/QuienesSomos/QuienesSomos'
-import Testimonios from '../components/Testimonios/Testimonios';
+import Testimonios from '../components/Testimonios/Testimonios'
 
 const Landing = () => {
   return (
@@ -17,6 +17,8 @@ const Landing = () => {
       <MisVis/>
       <br/>
       <Servicios/>
+      <br/>
+      <Testimonios/>
       <br/>
       <TuMejorOpcion/>
       <br />
