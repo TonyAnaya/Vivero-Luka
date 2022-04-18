@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Roboto:wght@300&display=swap');
+
 
 .plantaQuienes{
     width: 100%;
@@ -7,14 +7,12 @@
 .card-title{
     font-size: 3rem;
     color: #7AAA39;
-    font-family: 'Heebo', sans-serif;
-    font-weight: 300;
+    font-weight: 600;
 }
 
 .card-text{
     font-size: 1.8rem;
     color: #192954;
-    font-family: 'Heebo', sans-serif;
     font-weight:normal
 }
 

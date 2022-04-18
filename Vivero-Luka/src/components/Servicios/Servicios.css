@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Roboto:wght@300&display=swap');
+
 .servi {
   background-color: #F1EFE1;
   margin: 0 auto;
@@ -12,8 +12,6 @@
   padding-left: 20px ;
   font-size: 3.5rem;
   color: #7AAA39;
-  font-family: 'Heebo', sans-serif;
-  font-weight: 300;
 }
 
 .services{
@@ -23,8 +21,8 @@
 
 .serv-imag {
   border-radius: 5px;
-  height: 250px;
-  width: 380px
+  height: 250px !important;
+  width: 360px !important
 }
 
 .card {
