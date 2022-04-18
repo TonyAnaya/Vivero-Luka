@@ -13,8 +13,8 @@ const Landing = () => {
       <Carrousel/>
       <br/>
       <QuienesSomos/>
-      <br />
-      <MisVis/>
+      {/* <br />
+      <MisVis/> */}
       <br/>
       <Servicios/>
       <br/>
@@ -25,7 +25,7 @@ const Landing = () => {
       <Testimonios/>
       <br />
       <Contactanos/>
-      <br/>
+      <br/> 
     </div>
   )
 }

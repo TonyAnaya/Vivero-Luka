@@ -1,13 +1,3 @@
-.conteOpc{
-    background-color: white;
-    margin:0 auto;
-    padding: 5px;
-    color: #AECF3E;
-    border-radius: 5px;
-}
-.cuerpo{
-    margin-top: 7%;
-}
-.titulo{
-    font-size: 4vmax;
+#OpcionLuka{
+    height: fit-content;
 }

@@ -1,25 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Roboto:wght@300&display=swap');
 .servi {
-  background-color: white;
+  background-color: #F1EFE1;
   margin: 0 auto;
-  padding: 5px;
+  padding: 2px;
   color: #aecf3e;
   border-radius: 5px;
 }
+
+.servicios-title{
+  padding-top: 20px;
+  padding-left: 20px ;
+  font-size: 3.5rem;
+  color: #7AAA39;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 300;
+}
+
+.services{
+  color: #192954 !important;
+  font-size: 1.5rem !important;
+}
+
 .serv-imag {
   border-radius: 5px;
-  height: 180px;
-  width: 300px;
+  height: 250px;
+  width: 380px
 }
 
-.serv-imag:hover {
-  border-radius: 5px;
-
-}
 .card {
-  color: black;
   align-items: center;
   border: none;
 }
+
 #flex-container {
   margin: 0 auto;
 }
