@@ -11,7 +11,7 @@
   width: 300px;
 }
 .card {
-  color: black;
+  color: #192954;
   align-items: center;
   border: none;
 }
@@ -20,5 +20,10 @@
 }
 #flex {
   margin: 0 auto;
+}
+
+.opinan{
+  color: white;
+  font-size: 4rem;
 }
 

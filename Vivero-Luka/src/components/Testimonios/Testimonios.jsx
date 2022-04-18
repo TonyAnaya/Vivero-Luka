@@ -4,6 +4,7 @@ const Testimonio = () => {
   return (
     <div className="container row clien">
       <div className="container row" id='flex-container'>
+        <h1 className="opinan">Que opinan de nosotros</h1>
         <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4" id='flex'>
           <div className="col">
               <div className="card clien">
