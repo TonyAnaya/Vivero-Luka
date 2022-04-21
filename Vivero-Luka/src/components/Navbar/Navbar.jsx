@@ -49,43 +49,12 @@ const Navbar = () => {
                   </h5>
                 </NavLink>
               </li>
-              <li className="nav-link dropdown">
-                <h5
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Servicios
-                </h5>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li>
-                    <NavLink className="nav-link" to="/Servicios">
-                      <h6 className="dropdown-item">
-                        Proyectos de Reforestación
-                      </h6>
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink className="nav-link" to="/Servicios">
-                      <h6 className="dropdown-item">Jardinería</h6>
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink className="nav-link" to="/Servicios">
-                      <h6 className="dropdown-item">Paisajismo</h6>
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink className="nav-link" to="/Servicios">
-                      <h6 className="dropdown-item" href="#">
-                        Concejos y Cuidados
-                      </h6>
-                    </NavLink>
-                  </li>
-                </ul>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/Servicios">
+                  <h5 className="nav-link active" aria-current="page" href="#">
+                    Servicios
+                  </h5>
+                </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/Contacto">
