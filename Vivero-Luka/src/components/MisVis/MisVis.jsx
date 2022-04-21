@@ -1,10 +1,55 @@
-import "./MisVis.css"
+import "./MisVis.css";
+import mision from './assets/mision.png'
+import vision from './assets/vision.png'
+import valores from './assets/valores.png'
 
 const MisVis = () => {
   return (
-      <div>
-          
+    <div>
+      <div class="card-group">
+        <div class="card">
+          <img src={mision} class="card-img-top" alt="mision" id='misVisVal'/>
+          <div class="card-body">
+            <h5 class="card-title">Nuestra Misión</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src={vision} class="card-img-top" alt="..." id='misVisVal'/>
+          <div class="card-body">
+            <h5 class="card-title">Nuestra Visión</h5>
+            <p class="card-text">
+              This card has supporting text below as a natural lead-in to
+              additional content.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src={valores} class="card-img-top" alt="..." id='misVisVal'/>
+          <div class="card-body">
+            <h5 class="card-title">Nuestros Valores</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This card has even longer content
+              than the first to show that equal height action.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
       </div>
+    </div>
     // <div className="container misviscont row">
     //     <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
     //         <div className="carousel-inner">
@@ -49,7 +94,7 @@ const MisVis = () => {
     //         </button>
     //         </div>
     // </div>
-  )
-}
+  );
+};
 
-export default MisVis
+export default MisVis;
