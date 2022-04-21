@@ -1,7 +1,30 @@
-.misviscont{
-    background-color: white;
-    margin:0 auto;
-    padding: 20px;
-    color: gold;
-    border-radius: 200px;
+#misVisVal{
+    width: 120px;
+}
+
+#misCard{
+    padding: 10px;
+}
+
+#mision{
+    color: red;
+    font-size: 2rem;
+}
+
+#vision{
+    color: blue;
+    font-size: 2rem;
+}
+
+#valores{
+    color: green;
+    font-size: 2rem;
+}
+
+.textoMis{
+    font-size: 1.3rem;
+}
+
+#card-texto{
+    font-size: 1.2rem !important;
 }

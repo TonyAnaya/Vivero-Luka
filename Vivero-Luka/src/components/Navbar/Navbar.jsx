@@ -63,26 +63,26 @@ const Navbar = () => {
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
                     <NavLink className="nav-link" to="/Servicios">
-                      <h5 className="dropdown-item">
+                      <h6 className="dropdown-item">
                         Proyectos de Reforestación
-                      </h5>
+                      </h6>
                     </NavLink>
                   </li>
                   <li>
                     <NavLink className="nav-link" to="/Servicios">
-                      <h5 className="dropdown-item">Jardinería</h5>
+                      <h6 className="dropdown-item">Jardinería</h6>
                     </NavLink>
                   </li>
                   <li>
                     <NavLink className="nav-link" to="/Servicios">
-                      <h5 className="dropdown-item">Paisajismo</h5>
+                      <h6 className="dropdown-item">Paisajismo</h6>
                     </NavLink>
                   </li>
                   <li>
                     <NavLink className="nav-link" to="/Servicios">
-                      <h5 className="dropdown-item" href="#">
+                      <h6 className="dropdown-item" href="#">
                         Concejos y Cuidados
-                      </h5>
+                      </h6>
                     </NavLink>
                   </li>
                 </ul>

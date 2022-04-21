@@ -1,7 +1,16 @@
-.page{
+body {
     background-color: #A9CE93;
 }
 
 .servi{
     max-width: 85% !important;
  }
+
+ html, body, #root {
+    height: 100%;
+  }
+
+  #root {
+    display: flex;
+    flex-direction: column;
+   }
