@@ -13,7 +13,7 @@ const MisVis = () => {
             <h5 class="card-title" id="mision">
               Nuestra Misión
             </h5>
-            <p class="card-text">
+            <p class="card-text" id='card-texto'>
               Seguir cultivando árboles para hacer llegar a nuestros clientes
               producto de altísima calidad , durabilidad y conservación
             </p>
@@ -25,7 +25,7 @@ const MisVis = () => {
             <h5 class="card-title" id="vision">
               Nuestra Visión
             </h5>
-            <p class="card-text">
+            <p class="card-text" id='card-texto'>
               Convertirnos en los líderes del mercado mexicano de compensaciones
               y reforestaciones empresariales, con productos que cumplen los
               requerimientos de la NORMA
@@ -40,18 +40,14 @@ const MisVis = () => {
             </h5>
             <p class="card-text">
               <ul>
-                <li>
+                <li className="textoMis">
                   Honestidad: Entregando individuos arbóreos de la más alta
                   calidad Adoc a las solicitudes de nuestros clientes
                 </li>
-                <li>
+                <li className="textoMis">
                   Responsabilidad Social: Siendo una Empresa 100% sustentable
                 </li>
-                <li>
-                  Compromiso: Alto respeto por las fechas y contratos
-                  establecidos.
-                </li>
-                <li>
+                <li className="textoMis">
                   Excelente relación precio-beneficio: Los mejores precios del
                   mercado.
                 </li>

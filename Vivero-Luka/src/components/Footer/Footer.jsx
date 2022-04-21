@@ -3,7 +3,7 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <div className="d-flex footy">
+    <div className="d-flex footy" id='footer'>
         <div className="foot-logo">
             <img src={Logo} className="logo-foot"></img>
             <h1 href="#"> Viveros Rulcas</h1>

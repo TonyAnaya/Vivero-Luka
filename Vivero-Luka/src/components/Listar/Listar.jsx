@@ -1,5 +1,6 @@
 import { React, useEffect, useState } from "react";
 import { getProspect } from "../../api/api";
+import "./Listar.css";
 
 const Listar = () => {
   const [prospects, setProspects] = useState([]);
@@ -13,38 +14,46 @@ const Listar = () => {
     handleProspects();
   }, []);
 
-  console.log(prospects);
-
   return (
-    <div className="container">
-      Prospectos
-      <div className="prospectsFlex">
-        <table class="table table-striped">
-          <thead>
-            <tr>
-              <th scope="col">id</th>
-              <th scope="col">Nombre</th>
-              <th scope="col">Correo electrónico</th>
-              <th scope="col">Teléfono</th>
-              <th scope="col">Fecha</th>
-            </tr>
-          </thead>
-          {prospects.map((prospect) => {
-            return (
-              <tbody key={prospect.id}>
-                <tr>
-                  <th scope="row">{prospect.id}</th>
-                  <td>{prospect.nombre}</td>
-                  <td>{prospect.correo_electronico}</td>
-                  <td>{prospect.telefono}</td>
-                  <td>{prospect.fecha}</td>
-                </tr>
-              </tbody>
-            );
-          })}
-        </table>
+      <div className="container" id="prospectos">
+        <h1>Prospectos</h1>
+        <div className="prospectsFlex">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th className="data" scope="col">
+                  id
+                </th>
+                <th className="data" scope="col">
+                  Nombre
+                </th>
+                <th className="data" scope="col">
+                  Mail
+                </th>
+                <th className="data" scope="col">
+                  Teléfono
+                </th>
+                <th className="data" scope="col">
+                  Fecha
+                </th>
+              </tr>
+            </thead>
+            {prospects.map((prospect) => {
+              return (
+                <tbody key={prospect.id}>
+                  <tr>
+                    <th scope="row" className="data-client">{prospect.id}</th>
+                    <td className="data-client">{prospect.nombre}</td>
+                    <td className="data-client">{prospect.correo_electronico}</td>
+                    <td className="data-client">{prospect.telefono}</td>
+                    <td className="data-client">{prospect.fecha}</td>
+                  </tr>
+                </tbody>
+              );
+            })}
+          </table>
+        </div>
       </div>
-    </div>
   );
 };
 

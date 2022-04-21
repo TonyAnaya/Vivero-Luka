@@ -11,6 +11,10 @@
     padding:30px;
     justify-content: center;
     color:white;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    margin-top: auto;
 }
 .foot-logo{
     color:white
