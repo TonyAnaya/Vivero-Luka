@@ -2,6 +2,8 @@ import "./Historia.css";
 import bosque from './assets/bosque.jpg'
 
 const Historia = () => {
+
+  /*Prueba*/
   return (
     <div className="card mb-3" >
       <img src={bosque} className="card-img-top" alt="..." />
