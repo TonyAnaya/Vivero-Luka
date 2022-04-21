@@ -15,7 +15,13 @@ const MisVis = () => {
             </h5>
             <p class="card-text" id='card-texto'>
               Seguir cultivando árboles para hacer llegar a nuestros clientes
-              producto de altísima calidad , durabilidad y conservación
+              producto de altísima calidad , durabilidad y conservación.
+              Ofrecer, servicios
+integrales en lo relativo a
+compensaciones y jardinería
+empresarial, generando una
+experiencia única a nuestros
+clientes.
             </p>
           </div>
         </div>
@@ -41,14 +47,18 @@ const MisVis = () => {
             <p class="card-text">
               <ul>
                 <li className="textoMis">
-                  Honestidad: Entregando individuos arbóreos de la más alta
+                  <strong>Honestidad:</strong> Entregando individuos arbóreos de la más alta
                   calidad Adoc a las solicitudes de nuestros clientes
                 </li>
                 <li className="textoMis">
-                  Responsabilidad Social: Siendo una Empresa 100% sustentable
+                  <strong>Responsabilidad Social:</strong> Siendo una Empresa 100% sustentable
                 </li>
                 <li className="textoMis">
-                  Excelente relación precio-beneficio: Los mejores precios del
+                  <strong>Compromiso:</strong> Alto respeto por las 
+                  fechas y contratos establecidos.
+                </li>
+                <li className="textoMis">
+                  <strong>Excelente relación precio-beneficio:</strong> Los mejores precios del
                   mercado.
                 </li>
               </ul>

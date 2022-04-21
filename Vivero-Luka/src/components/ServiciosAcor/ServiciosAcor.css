@@ -1,24 +1,29 @@
-.titulo-servicio{
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-.descripcion{
-    color:black;
-    width:80%;
-    margin: 0 auto
-}
 .serviAcor{
     background-color: white;
     margin:0 auto;
     padding: 20px;
     color: gold;
     border-radius: 30px;
+    display:flex;
+    flex-wrap: wrap;
 }
-.accordion-item{
-    border:none
+.serv-card{
+    width: 18rem;
+    padding: 10px;
+    margin-top:10px
 }
-.acordionAncho{
-    width: 80%;
-    margin:0 auto
+.iconos{
+    height: 100px;
+    width: auto;
+}
+.servi-title{
+    font-size: 1.7vmax;
+    color: rgb(25,41,84)
+}
+.servi-text{
+    font-size: 1.2vmax;
+}
+.serv-texto{
+    color:rgb(25,41,84);
+    margin:20px
 }

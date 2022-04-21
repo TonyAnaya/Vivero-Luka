@@ -3,23 +3,23 @@ import "./TuMejorOpcion.css";
 
 const TuMejorOpcion = () => {
   return (
-    <div class="card mb-3">
-      <div class="row no-gutters">
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">Expertos en lo que hacemos</h5>
+    <div className="card mb-3">
+      <div className="row no-gutters">
+        <div className="col-md-8">
+          <div className="card-body">
+            <h5 className="card-title">Expertos en lo que hacemos</h5>
             <br />
-            <p class="card-text">
+            <p className="card-text">
               En Viveros Rulcas, nos dedicamos a realizar los resarcimientos
               ambientales que tu empresa necesita.
             </p>
-            <p class="card-text">
+            <p className="card-text">
               Además de paisajismo, jardinería y siempra de pasto, todo natural.
             </p>
           </div>
         </div>
-        <div class="col-md-4">
-          <img src={Opcion} class="card-img" alt="..." id='OpcionLuka'/>
+        <div className="col-md-4 columna">
+          <img src={Opcion} className="card-img" alt="..." id='OpcionLuka'/>
         </div>
       </div>
     </div>

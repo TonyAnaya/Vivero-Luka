@@ -4,6 +4,7 @@
 
 #misCard{
     padding: 10px;
+    text-align: center;
 }
 
 #mision{
@@ -22,9 +23,9 @@
 }
 
 .textoMis{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 #card-texto{
-    font-size: 1.2rem !important;
+    font-size: 1.3rem !important;
 }

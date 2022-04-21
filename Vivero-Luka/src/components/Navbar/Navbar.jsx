@@ -81,7 +81,7 @@ const Navbar = () => {
                   <li>
                     <NavLink className="nav-link" to="/Servicios">
                       <h6 className="dropdown-item" href="#">
-                        Concejos y Cuidados
+                        Consejos y Cuidados
                       </h6>
                     </NavLink>
                   </li>
