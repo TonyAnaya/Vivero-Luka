@@ -1,50 +1,61 @@
 import "./MisVis.css";
-import mision from './assets/mision.png'
-import vision from './assets/vision.png'
-import valores from './assets/valores.png'
+import mision from "./assets/mision.png";
+import vision from "./assets/vision.png";
+import valores from "./assets/valores.png";
 
 const MisVis = () => {
   return (
     <div>
       <div class="card-group">
-        <div class="card">
-          <img src={mision} class="card-img-top" alt="mision" id='misVisVal'/>
+        <div class="card" id="misCard">
+          <img src={mision} class="card-img-top" alt="mision" id="misVisVal" />
           <div class="card-body">
-            <h5 class="card-title">Nuestra Misión</h5>
+            <h5 class="card-title" id="mision">
+              Nuestra Misión
+            </h5>
             <p class="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
-            <p class="card-text">
-              <small class="text-muted">Last updated 3 mins ago</small>
+              Seguir cultivando árboles para hacer llegar a nuestros clientes
+              producto de altísima calidad , durabilidad y conservación
             </p>
           </div>
         </div>
-        <div class="card">
-          <img src={vision} class="card-img-top" alt="..." id='misVisVal'/>
+        <div class="card" id="misCard">
+          <img src={vision} class="card-img-top" alt="..." id="misVisVal" />
           <div class="card-body">
-            <h5 class="card-title">Nuestra Visión</h5>
+            <h5 class="card-title" id="vision">
+              Nuestra Visión
+            </h5>
             <p class="card-text">
-              This card has supporting text below as a natural lead-in to
-              additional content.
-            </p>
-            <p class="card-text">
-              <small class="text-muted">Last updated 3 mins ago</small>
+              Convertirnos en los líderes del mercado mexicano de compensaciones
+              y reforestaciones empresariales, con productos que cumplen los
+              requerimientos de la NORMA
             </p>
           </div>
         </div>
-        <div class="card">
-          <img src={valores} class="card-img-top" alt="..." id='misVisVal'/>
+        <div class="card" id="misCard">
+          <img src={valores} class="card-img-top" alt="..." id="misVisVal" />
           <div class="card-body">
-            <h5 class="card-title">Nuestros Valores</h5>
+            <h5 class="card-title" id="valores">
+              Nuestros Valores
+            </h5>
             <p class="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
-            </p>
-            <p class="card-text">
-              <small class="text-muted">Last updated 3 mins ago</small>
+              <ul>
+                <li>
+                  Honestidad: Entregando individuos arbóreos de la más alta
+                  calidad Adoc a las solicitudes de nuestros clientes
+                </li>
+                <li>
+                  Responsabilidad Social: Siendo una Empresa 100% sustentable
+                </li>
+                <li>
+                  Compromiso: Alto respeto por las fechas y contratos
+                  establecidos.
+                </li>
+                <li>
+                  Excelente relación precio-beneficio: Los mejores precios del
+                  mercado.
+                </li>
+              </ul>
             </p>
           </div>
         </div>

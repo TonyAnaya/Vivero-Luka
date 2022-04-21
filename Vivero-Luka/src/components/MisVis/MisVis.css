@@ -1,11 +1,19 @@
-/* .misviscont{
-    background-color: white;
-    margin:0 auto;
-    padding: 20px;
-    color: gold;
-    border-radius: 200px;
-} */
-
 #misVisVal{
     width: 200px;
+}
+
+#misCard{
+    padding: 20px;
+}
+
+#mision{
+    color: red;
+}
+
+#vision{
+    color: blue
+}
+
+#valores{
+    color: green
 }
