@@ -27,24 +27,37 @@
 }
 
 .tituloServicios{
-  font-size: 4rem;
+  font-size: 3rem;
   margin-left: 30px;
   font-weight: bold;
   color: white;  
 }
 
 .serviciosFlex{
-    width: 90%;
+    width: 80%;
     margin: auto;
     display: flex;
+    background-color: #F1EFE1;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
+    align-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 .serviciosFlex img{
     width: 450px;
-    margin: 20px;
+    margin: 20px 0;
 }
+
+@media (max-width: 900px) {
+    .serviciosFlex img{
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .img-contenedor-servicios img{
+        width: 100%;
+    }
+  
+  }

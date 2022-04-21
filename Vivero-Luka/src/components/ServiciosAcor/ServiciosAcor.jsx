@@ -22,7 +22,12 @@ const ServiciosAcor = () => {
         <img src={prueba} alt="img" className="imgFlexServ"/>
         <img src={prueba} alt="img" className="imgFlexServ"/>
         <img src={prueba} alt="img" className="imgFlexServ"/>
+        <img src={prueba} alt="img" className="imgFlexServ"/>
+        <img src={prueba} alt="img" className="imgFlexServ"/>
+        <img src={prueba} alt="img" className="imgFlexServ"/>
       </div>
+      <br />
+      <h1 className="tituloServicios">Consejos y cuidados</h1>
     </div>
   );
 };
