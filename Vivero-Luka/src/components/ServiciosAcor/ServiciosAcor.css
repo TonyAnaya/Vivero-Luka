@@ -1,29 +1,63 @@
-.serviAcor{
-    background-color: white;
-    margin:0 auto;
-    padding: 20px;
-    color: gold;
-    border-radius: 30px;
-    display:flex;
+.serviciosBanner{
+    width: 100%;
+    height: 120px;
+    background-color: #DBB523;
+    border-bottom: 3px white solid;
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center
 }
-.serv-card{
-    width: 18rem;
-    padding: 10px;
-    margin-top:10px
+
+.serviciosBanner h1{
+    font-size: 3rem;
+    margin-right: 70px;
+    color: white;
 }
-.iconos{
-    height: 100px;
-    width: auto;
+
+.img-contenedor-servicios{
+    width: 95%;
+    margin: auto;
 }
-.servi-title{
-    font-size: 1.7vmax;
-    color: rgb(25,41,84)
+
+.img-contenedor-servicios img{
+    width: 100%;
 }
-.servi-text{
-    font-size: 1.2vmax;
+
+.tituloServicios{
+  font-size: 3rem;
+  margin-left: 30px;
+  font-weight: bold;
+  color: white;  
 }
-.serv-texto{
-    color:rgb(25,41,84);
-    margin:20px
+
+.serviciosFlex{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    background-color: #F1EFE1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
+.serviciosFlex img{
+    width: 450px;
+    margin: 20px 0;
+}
+
+@media (max-width: 900px) {
+    .serviciosFlex img{
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .img-contenedor-servicios img{
+        width: 100%;
+    }
+  
+  }

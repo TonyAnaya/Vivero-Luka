@@ -4,7 +4,6 @@ import Contactanos from '../components/Contactanos/Contactanos'
 const Servicios = () => {
   return (
     <div className="page">
-      <br/>
       <ServiciosAcor/>
       <br/>
       <Contactanos/>
