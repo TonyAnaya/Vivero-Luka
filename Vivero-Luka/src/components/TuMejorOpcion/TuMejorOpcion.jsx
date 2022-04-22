@@ -10,11 +10,8 @@ const TuMejorOpcion = () => {
             <h5 className="card-title">Expertos en lo que hacemos</h5>
             <br />
             <p className="card-text">
-              En Viveros Rulcas, nos dedicamos a realizar los resarcimientos
-              ambientales que tu empresa necesita.
-            </p>
-            <p className="card-text">
-              Además de paisajismo, jardinería y siempra de pasto, todo natural.
+              Los mejores individuos arboreos, nos especializamos en la siembra de estos, desde su nacimiento hasta el
+              momento de su traslado a su nuevo lugar, logrando para que sean fuertes y de la mayor calidad.
             </p>
           </div>
         </div>

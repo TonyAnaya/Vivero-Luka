@@ -11,7 +11,9 @@ const Catalogo = () => {
       descripcion: "descripcion corta",
       id:"1",
       id2:"a"
-
+      //nombre coloquial
+      //nombre cientifico
+      //Grosor 3/4 cm * altura promedio
     },
     {
       imagen: Casa,
@@ -119,7 +121,6 @@ const Catalogo = () => {
       <div className="cont-flex-catalogo">
         {plantas.map((planta) => {
           let id3 = '#' + planta.id2
-
           return (
             <div key = {planta.id}>
               <br />
@@ -141,7 +142,6 @@ const Catalogo = () => {
                   >
                     Ver Más
                   </button>
-
                   <div
                     className="modal fade"
                     id={planta.id2}
@@ -183,7 +183,6 @@ const Catalogo = () => {
                         </div>
                       </div>
                     </div>
-
                   </div>
                 </div>
               </div>

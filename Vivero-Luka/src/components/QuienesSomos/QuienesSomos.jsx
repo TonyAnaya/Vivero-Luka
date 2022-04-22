@@ -14,10 +14,10 @@ const TuMejorOpcion = () => {
             <br />
             <p class="card-text">
               En Viveros Rulcas, nos dedicamos a realizar los resarcimientos
-              ambientales que tu empresa necesita.
+              ambientales que tu empresa necesita para su crecimiento siempre enfocandonos en la mejora ambiental continua.
             </p>
             <p class="card-text">
-              Además de paisajismo, jardinería y siempra de pasto, todo natural.
+              Además de paisajismo, jardinería y siembra de cesped natural.
             </p>
           </div>
         </div>

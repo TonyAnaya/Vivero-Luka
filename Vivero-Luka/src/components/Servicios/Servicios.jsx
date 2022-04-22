@@ -16,7 +16,7 @@ const Servici = () => {
                 <div className="card">
                   <img src={Planta} className="card-img-top serv-imag " alt="..." />
                   <div className="card-body">
-                    <h5 className="card-title services">Compensaciones</h5>
+                    <h5 className="card-title services">Resarcimientos</h5>
                   </div>
                 </div>
               </NavLink>

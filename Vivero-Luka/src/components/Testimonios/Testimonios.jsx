@@ -10,7 +10,7 @@ const Testimonio = () => {
               <div className="card clien">
                 <div className="card-body">
                   <h3>
-                    <cite>"Reforestación facil y eficiente"</cite>
+                    <cite>"Excelente producto, el tamaño perfecto, como lo necesitabamos"</cite>
                   </h3>
                   <cite> Ximeno Perez - Proyecto Reforestación</cite>
                 </div>
