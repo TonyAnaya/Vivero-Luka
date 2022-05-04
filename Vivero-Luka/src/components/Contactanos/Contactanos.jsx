@@ -153,7 +153,7 @@ const Contacta = () => {
               <div className="modal-body">
                 <div className="card">
                   <p>
-                    El mensaje se enviío con exito, en poco tiempo nos
+                    El mensaje se envió con éxito, en poco tiempo nos
                     contactaremos contigo
                   </p>
                 </div>
