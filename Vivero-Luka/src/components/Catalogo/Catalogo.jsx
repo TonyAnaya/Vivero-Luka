@@ -7,84 +7,209 @@ const Catalogo = () => {
   const plantas = [
     {
       imagen: Cancha,
-      titulo: "planta 1",
+      titulo: "Acacia Gris",
+      descripcion: "descripcion corta",
+    },
+    {
+      imagen: Cancha,
+      titulo: "Acacia Tormentosa",
+      descripcion: "descripcion corta",
+    },
+    {
+      imagen: Cancha,
+      titulo: "Acacia Verde",
       descripcion: "descripcion corta",
     },
     {
       imagen: Casa,
-      titulo: "planta 2",
+      titulo: "Astronomica",
       descripcion: "descripcion corta 2",
     },
     {
       imagen: Pared,
-      titulo: "planta 3",
+      titulo: "Bambu",
       descripcion: "descripcion corta 3",
     },
     {
       imagen: Pared,
-      titulo: "planta 4",
+      titulo: "Calistermo",
       descripcion: "descripcion corta 4",
     },
     {
       imagen: Pared,
-      titulo: "planta 5",
+      titulo: "Capulin",
+      descripcion: "descripcion corta 5",
+    },
+    {
+      imagen: Cancha,
+      titulo: "Casia Tormentosa",
+      descripcion: "descripcion corta",
+    },
+    {
+      imagen: Casa,
+      titulo: "Cedro Blanco",
+      descripcion: "descripcion corta 2",
+    },
+    {
+      imagen: Pared,
+      titulo: "Cedro Limon",
+      descripcion: "descripcion corta 3",
+    },
+    {
+      imagen: Pared,
+      titulo: "Chabacano",
+      descripcion: "descripcion corta 4",
+    },
+    {
+      imagen: Pared,
+      titulo: "Cipress",
       descripcion: "descripcion corta 5",
     },
     {
       imagen: Pared,
-      titulo: "planta 6",
+      titulo: "Durazno",
       descripcion: "descripcion corta 6",
     },
     {
       imagen: Pared,
-      titulo: "planta 7",
+      titulo: "Encino Laurina",
       descripcion: "descripcion corta 7",
     },
     {
       imagen: Pared,
-      titulo: "planta 8",
+      titulo: "Encino Candicans",
       descripcion: "descripcion corta 8",
     },
     {
       imagen: Pared,
-      titulo: "planta 9",
+      titulo: "Ficus",
       descripcion: "descripcion corta 9",
     },
     {
       imagen: Pared,
-      titulo: "planta 10",
+      titulo: "Fresno",
       descripcion: "descripcion corta 10",
     },
     {
       imagen: Pared,
-      titulo: "planta 10",
+      titulo: "Grevilea",
       descripcion: "descripcion corta 10",
     },
     {
       imagen: Pared,
-      titulo: "planta 10",
+      titulo: "Jacaranda",
       descripcion: "descripcion corta 10",
     },
     {
       imagen: Pared,
-      titulo: "planta 10",
+      titulo: "Laurel",
       descripcion: "descripcion corta 10",
     },
     {
       imagen: Pared,
-      titulo: "planta 10",
+      titulo: "Laurel Rosa",
       descripcion: "descripcion corta 10",
     },
     {
       imagen: Pared,
-      titulo: "planta 10",
+      titulo: "Lima",
+      descripcion: "descripcion corta 10",
+    },
+    {
+      imagen: Cancha,
+      titulo: "Liquidambar",
+      descripcion: "descripcion corta",
+    },
+    {
+      imagen: Casa,
+      titulo: "Melia Paraiso",
+      descripcion: "descripcion corta 2",
+    },
+    {
+      imagen: Pared,
+      titulo: "Mezquite",
+      descripcion: "descripcion corta 3",
+    },
+    {
+      imagen: Pared,
+      titulo: "Naranjo",
+      descripcion: "descripcion corta 4",
+    },
+    {
+      imagen: Pared,
+      titulo: "Nispero",
+      descripcion: "descripcion corta 5",
+    },
+    {
+      imagen: Pared,
+      titulo: "Pata de Vaca",
+      descripcion: "descripcion corta 6",
+    },
+    {
+      imagen: Pared,
+      titulo: "Pera",
+      descripcion: "descripcion corta 7",
+    },
+    {
+      imagen: Pared,
+      titulo: "Pino Ayacahuite",
+      descripcion: "descripcion corta 8",
+    },
+    {
+      imagen: Pared,
+      titulo: "Pino Greggi",
+      descripcion: "descripcion corta 9",
+    },
+    {
+      imagen: Pared,
+      titulo: "Pino Moctezuma",
+      descripcion: "descripcion corta 10",
+    },
+    {
+      imagen: Pared,
+      titulo: "Piracanto",
+      descripcion: "descripcion corta 10",
+    },
+    {
+      imagen: Pared,
+      titulo: "Pirul Brasileño",
+      descripcion: "descripcion corta 10",
+    },
+    {
+      imagen: Pared,
+      titulo: "Pirul Chino",
+      descripcion: "descripcion corta 10",
+    },
+    {
+      imagen: Pared,
+      titulo: "Tejocote",
+      descripcion: "descripcion corta 10",
+    },
+    {
+      imagen: Pared,
+      titulo: "Trueno Japonico",
+      descripcion: "descripcion corta 10",
+    },
+    {
+      imagen: Pared,
+      titulo: "Pirul Chino",
+      descripcion: "descripcion corta 10",
+    },
+    {
+      imagen: Pared,
+      titulo: "Tejocote",
+      descripcion: "descripcion corta 10",
+    },
+    {
+      imagen: Pared,
+      titulo: "Trueno Japonico",
       descripcion: "descripcion corta 10",
     },
   ];
 
   return (
     <div className="container row servi">
-      <h1 className="cont-titulo">Nuestros Árboles Disponibles</h1>
+      <h1 className="cont-titulo">Nuestro Catálogo</h1>
       <div className="cont-flex-catalogo">
         {plantas.map((planta) => {
           return (
@@ -98,12 +223,13 @@ const Catalogo = () => {
                   alt="..."
                 />
                 <div className="card-body">
-                  <h5 className="card-title">{planta.titulo}</h5>
+                  <h5 className="card-title" id='titulo-map'>{planta.titulo}</h5>
                   <button
                     type="button"
-                    className="btn btn-primary btn-arbol"
+                    className="btn btn-primary"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
+                    id='btn-catalogo'
                   >
                     Ver Más
                   </button>
@@ -158,7 +284,7 @@ const Catalogo = () => {
         })}
       </div>
       <br />
-      <h1 className="cont-titulo">Catálogo</h1>
+      {/* <h1 className="cont-titulo">Catálogo</h1> */}
     </div>
   );
 };

@@ -13,12 +13,22 @@
     flex-basis: 90%
 }
 
-.btn-arbol{
-    background-color: #AECF3E;
-    border: 0 transparent;
-}
 
 .btn-arbol:hover{
     background-color: #AECF3E;
     border: 0 transparent;
+}
+
+#titulo-map{
+    font-size: 1.5rem !important;
+    color: #192954;
+}
+
+#btn-catalogo{
+    background-color: #3BA338 !important;
+    border: 0px solid transparent;
+}
+
+#btn-catalogo:hover{
+    background-color: blue !important;
 }
