@@ -26,6 +26,7 @@ const Landing = () => {
       <br />
       <Contactanos/>
       <br/> 
+      
     </div>
   )
 }
