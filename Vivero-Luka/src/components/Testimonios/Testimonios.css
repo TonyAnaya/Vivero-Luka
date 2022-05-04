@@ -1,8 +1,8 @@
 .servi {
-  background-color: white;
+  background-color: #F1EFE1;
   margin: 0 auto;
   padding: 5px;
-  color: #aecf3e;
+  color: #7AAA38;
   border-radius: 5px;
 }
 .serv-imag {
@@ -11,7 +11,7 @@
   width: 300px;
 }
 .card {
-  color: black;
+  color: #192954;
   align-items: center;
   border: none;
 }
@@ -22,3 +22,14 @@
   margin: 0 auto;
 }
 
+.opinan{
+  color: white;
+  font-size: 4rem;
+}
+
+@media (max-width: 900px) {
+  .opinan{
+      font-size: 2.8rem;
+  }
+
+}

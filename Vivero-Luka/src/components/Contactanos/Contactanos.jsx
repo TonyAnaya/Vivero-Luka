@@ -1,6 +1,7 @@
 import { React, useState } from "react";
 import { postProspect } from "../../api/api";
 import "./Contactanos.css";
+import emailjs from "emailjs-com";
 
 const Contacta = () => {
   const [prospect, setProspect] = useState({
@@ -10,10 +11,26 @@ const Contacta = () => {
     mensaje: "",
   });
 
-  const [first, setfirst] = useState(0)
+  const [first, setfirst] = useState(0);
 
-  let handleSubmit = async(event) => {
+  let handleSubmit = async (event) => {
     event.preventDefault();
+
+    emailjs
+      .sendForm(
+        "viverosRulcas",
+        "template_rde8qrz",
+        event.target,
+        "user_tvSW5gG9Gc432QuyoBnyx"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
 
     let prospectoCreado = {
       nombre: event.target[0].value,
@@ -23,17 +40,15 @@ const Contacta = () => {
       mensaje: event.target[4].value,
     };
     setProspect(prospectoCreado);
-    let response = await postProspect(prospect)
-    return response
-
+    let response = await postProspect(prospect);
+    return response;
   };
 
   console.log(first);
 
-
   return (
     <div className="container row contacta">
-      <h1 className="cont-titulo">¡Cotiza con nosotros!</h1>
+      <h1 className="cont-titulo">¡Queremos conocerte!</h1>
       <form onSubmit={handleSubmit}>
         <div className="container row text-bl">
           <div className="col-6">
@@ -46,6 +61,7 @@ const Contacta = () => {
                 className="form-control"
                 id="exampleFormControlInput1"
                 placeholder="Nombre"
+                name="from_name"
               />
             </div>
 
@@ -58,6 +74,7 @@ const Contacta = () => {
                 className="form-control"
                 id="exampleFormControlInput2"
                 placeholder="5555-55-55-55"
+                name="telefono"
               />
             </div>
 
@@ -70,6 +87,7 @@ const Contacta = () => {
                 className="form-control"
                 id="exampleFormControlInput3"
                 placeholder="name@example.com"
+                name="email"
               />
             </div>
             <div className="mb-3">
@@ -81,58 +99,78 @@ const Contacta = () => {
                 className="form-control"
                 id="exampleFormControlInput3"
                 placeholder="Indica de que empresa nos contactas"
+                name="empresa"
               />
             </div>
           </div>
           <div className="col-6">
             <div className="mb-3">
-              <label htmlFor="exampleFormControlTextarea1" className="form-label">
+              <label
+                htmlFor="exampleFormControlTextarea1"
+                className="form-label"
+              >
                 Mensaje
               </label>
               <textarea
                 className="form-control"
                 id="exampleFormControlTextarea1"
                 rows="12"
+                name="message"
               ></textarea>
             </div>
           </div>
         </div>
 
-
-
-        <button type="submit" className="btn btn-primary boton col-lg-2 btn-contact" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <button
+          type="submit"
+          className="btn btn-primary boton col-lg-2 btn-contact"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
           Enviar
         </button>
 
-        <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div className="modal-dialog modal-dialog-centered">
-                <div className="modal-content">
-                    <div className="modal-header">
-                        <h5 className="modal-title" id="exampleModalLabel">Mensaje enviado con éxito</h5>
-                        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div className="modal-body">
-                        
-                        <div className="card" >
-                            <p>El mensaje se enviío con exito, en poco tiempo nos contactaremos contigo</p>
-                        </div>
-                    </div>
-                    <div className="modal-footer">
-                        <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                    </div>
+        <div
+          className="modal fade"
+          id="exampleModal"
+          tabIndex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div className="modal-dialog modal-dialog-centered">
+            <div className="modal-content">
+              <div className="modal-header">
+                <h5 className="modal-title" id="exampleModalLabel">
+                  Mensaje enviado con éxito
+                </h5>
+                <button
+                  type="button"
+                  className="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div className="modal-body">
+                <div className="card">
+                  <p>
+                    El mensaje se envió con éxito, en poco tiempo nos
+                    contactaremos contigo
+                  </p>
                 </div>
+              </div>
+              <div className="modal-footer">
+                <button
+                  type="button"
+                  className="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Cerrar
+                </button>
+              </div>
             </div>
+          </div>
         </div>
-
-
-
-
-
-
-
-
       </form>
-
     </div>
   );
 };

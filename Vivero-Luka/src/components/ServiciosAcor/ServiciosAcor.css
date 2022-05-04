@@ -1,24 +1,63 @@
-.titulo-servicio{
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+.serviciosBanner{
+    width: 100%;
+    height: 120px;
+    background-color: #DBB523;
+    border-bottom: 3px white solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center
 }
-.descripcion{
-    color:black;
-    width:80%;
-    margin: 0 auto
+
+.serviciosBanner h1{
+    font-size: 3rem;
+    margin-right: 70px;
+    color: white;
 }
-.serviAcor{
-    background-color: white;
-    margin:0 auto;
-    padding: 20px;
-    color: gold;
-    border-radius: 30px;
+
+.img-contenedor-servicios{
+    width: 95%;
+    margin: auto;
 }
-.accordion-item{
-    border:none
+
+.img-contenedor-servicios img{
+    width: 100%;
 }
-.acordionAncho{
+
+.tituloServicios{
+  font-size: 3rem;
+  margin-left: 30px;
+  font-weight: bold;
+  color: white;  
+}
+
+.serviciosFlex{
     width: 80%;
-    margin:0 auto
+    margin: auto;
+    display: flex;
+    background-color: #F1EFE1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
+.serviciosFlex img{
+    width: 450px;
+    margin: 20px 0;
+}
+
+@media (max-width: 900px) {
+    .serviciosFlex img{
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .img-contenedor-servicios img{
+        width: 100%;
+    }
+  
+  }

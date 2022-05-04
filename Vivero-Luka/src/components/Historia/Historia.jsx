@@ -1,27 +1,24 @@
-import "./Historia.css"
-import Cancha from "./assets/Cancha.jpeg";
-import Casa from "./assets/Casa.jpeg";
-import Pared from "./assets/Pared.jpeg";
+import "./Historia.css";
+import bosque from './assets/bosque.jpg'
 
 const Historia = () => {
-  return (
-    <div className="container row servi">
-        <h3 className="text-center">Historia</h3>
-        <p className="col-lg-5 col-md-12 texto-cuerpo offset-lg-1">aaaaaaaaaa aaaaaaaa aaaaaaaaaaa
-        aaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaa
-        aaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-        aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaa
-        aaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaa
-        aaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-        <img src={Cancha} className="col-lg-4 offset-lg-1 imaghistoria" alt="..." />
-        <p className="col-10 texto-cuerpo offset-lg-1">aaaaaaaaaa aaaaaaaa aaaaaaaaaaa
-        aaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaa
-        aaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-        aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaa
-        aaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaa
-        aaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-    </div>
-  )
-}
 
-export default Historia
+  /*Prueba*/
+  return (
+    <div className="card mb-3" >
+      <img src={bosque} className="card-img-top" alt="..." />
+      <div className="card-body">
+        <h5 className="card-title">Viveros Rulcas</h5>
+        <p className="card-text">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, ipsum amet magni pariatur deleniti ratione voluptatem veniam architecto facilis saepe doloribus dolore illo laboriosam ullam! Earum eveniet animi nemo aut!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem repudiandae sint perspiciatis doloribus veritatis, aperiam iure ratione sequi eveniet, eos vero deleniti fugit officiis ipsum id atque sit, perferendis quod.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit hic eaque ea, dolores laudantium totam omnis assumenda. Laborum amet adipisci, assumenda nostrum impedit quo ipsam officia labore ad enim explicabo.
+          <br />
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eligendi expedita repellendus autem quaerat asperiores recusandae voluptas dicta, unde magnam dolorum nemo numquam illo eum repudiandae dolores voluptatem explicabo commodi!
+        </p>
+      </div>
+    </div>
+  );
+};
+
+export default Historia;
