@@ -1,4 +1,4 @@
-import fotoTitulo from "./assets/plantas.jpg";
+import fotoTitulo from "./assets/plantas1.jpg";
 import arbolTitulo from "./assets/tierra.jpg"
 import plantarTitulo from "./assets/plantar.jpg"
 

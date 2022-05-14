@@ -8,212 +8,276 @@ const Catalogo = () => {
     {
       imagen: Cancha,
       titulo: "Acacia Gris",
+      nombre_cientifico: "",
+      familia: "",
+      origen: "",
       descripcion: "descripcion corta",
-    },
-    {
-      imagen: Cancha,
-      titulo: "Acacia Tormentosa",
-      descripcion: "descripcion corta",
-    },
-    {
-      imagen: Cancha,
-      titulo: "Acacia Verde",
-      descripcion: "descripcion corta",
+      id:"1",
+      id2:"a"
+      //nombre coloquial
+      //nombre cientifico
+      //Grosor 3/4 cm * altura promedio
     },
     {
       imagen: Casa,
-      titulo: "Astronomica",
+      titulo: "Acacia Tormentosa",
+      nombre_cientifico: "",
+      familia: "",
+      origen: "",
       descripcion: "descripcion corta 2",
+      id:"2",
+      id2:"b"
+    },
+    {
+      imagen: Pared,
+      titulo: "Acacia Verde",
+      nombre_cientifico: "",
+      familia: "",
+      origen: "",
+      descripcion: "descripcion corta 3",
+      id:"3",
+      id2:"c"
+    },
+    {
+      imagen: Pared,
+      titulo: "Astronomica",
+      nombre_cientifico: "",
+      familia: "",
+      origen: "",
+      descripcion: "descripcion corta 4",
+      id:"4",
+      id2:"d"
     },
     {
       imagen: Pared,
       titulo: "Bambu",
-      descripcion: "descripcion corta 3",
+      nombre_cientifico: "",
+      familia: "",
+      origen: "",
+      descripcion: "descripcion corta 5",
+      id:"5",
+      id2:"e"
     },
     {
       imagen: Pared,
       titulo: "Calistermo",
-      descripcion: "descripcion corta 4",
+      nombre_cientifico: "",
+      familia: "",
+      origen: "",
+      descripcion: "descripcion corta 6",
+      id:"6",
+      id2:"f"
     },
     {
       imagen: Pared,
       titulo: "Capulin",
-      descripcion: "descripcion corta 5",
+      nombre_cientifico: "",
+      familia: "",
+      origen: "",
+      descripcion: "descripcion corta 7",
+      id:"7",
+      id2:"g"
     },
     {
-      imagen: Cancha,
+      imagen: Pared,
       titulo: "Casia Tormentosa",
-      descripcion: "descripcion corta",
+      nombre_cientifico: "",
+      familia: "",
+      origen: "",
+      descripcion: "descripcion corta 8",
+      id:"8",
+      id2:"h"
     },
     {
-      imagen: Casa,
+      imagen: Pared,
       titulo: "Cedro Blanco",
-      descripcion: "descripcion corta 2",
+      nombre_cientifico: "",
+      familia: "",
+      origen: "",
+      descripcion: "descripcion corta 9",
+      id:"9",
+      id2:"i"
     },
     {
       imagen: Pared,
       titulo: "Cedro Limon",
-      descripcion: "descripcion corta 3",
+      nombre_cientifico: "",
+      familia: "",
+      origen: "",
+      descripcion: "descripcion corta 10",
+      id:"10",
+      id2:"j"
     },
     {
       imagen: Pared,
       titulo: "Chabacano",
-      descripcion: "descripcion corta 4",
+      nombre_cientifico: "",
+      familia: "",
+      origen: "",
+      descripcion: "descripcion corta 11",
+      id:"11",
+      id2:"k"
     },
     {
       imagen: Pared,
       titulo: "Cipress",
-      descripcion: "descripcion corta 5",
+      nombre_cientifico: "",
+      familia: "",
+      origen: "",
+      descripcion: "descripcion corta 12",
+      id:"12",
+      id2:"l"
     },
     {
       imagen: Pared,
       titulo: "Durazno",
-      descripcion: "descripcion corta 6",
+      nombre_cientifico: "",
+      familia: "",
+      origen: "",
+      descripcion: "descripcion corta 13",
+      id:"13",
+      id2:"m"
     },
     {
       imagen: Pared,
       titulo: "Encino Laurina",
-      descripcion: "descripcion corta 7",
+      nombre_cientifico: "",
+      familia: "",
+      origen: "",
+      descripcion: "descripcion corta 14",
+      id:"14",
+      id2:"n"
     },
     {
       imagen: Pared,
       titulo: "Encino Candicans",
-      descripcion: "descripcion corta 8",
+      nombre_cientifico: "",
+      familia: "",
+      origen: "",
+      descripcion: "descripcion corta 15",
+      id:"15",
+      id2:"o"
     },
     {
       imagen: Pared,
       titulo: "Ficus",
-      descripcion: "descripcion corta 9",
+      nombre_cientifico: "",
+      familia: "",
+      origen: "",
+      descripcion: "descripcion corta 15",
+      id:"16",
+      id2:"p"
     },
     {
       imagen: Pared,
       titulo: "Fresno",
-      descripcion: "descripcion corta 10",
+      nombre_cientifico: "",
+      familia: "",
+      origen: "",
+      descripcion: "descripcion corta 15",
+      id:"17",
+      id2:"q"
     },
     {
       imagen: Pared,
       titulo: "Grevilea",
-      descripcion: "descripcion corta 10",
+      nombre_cientifico: "",
+      familia: "",
+      origen: "",
+      descripcion: "descripcion corta 15",
+      id:"18",
+      id2:"r"
     },
     {
       imagen: Pared,
       titulo: "Jacaranda",
-      descripcion: "descripcion corta 10",
+      nombre_cientifico: "Jacaranda mimosifolia",
+      familia: "Bignoniáceas",
+      origen: "Bolivia y Argentina (Jujuy, Salta y Tucumán)",
+      descripcion: "Árbol de porte mediano, puede alcanzar 18 metros de altura. Corteza oscura cuando es adulto. Follaje semipersistente o tardíamente caedizo. Flores en forma de tubo, de color azul violáceo, agrupadas en los extremos de las ramas. La floración se produce antes de la aparición de las hojas, en octubre, y suele repetirse con menor intensidad en otoño. El fruto es leñoso y recuerda a una castañuela. ",
+      id:"19",
+      id2:"s"
     },
     {
       imagen: Pared,
       titulo: "Laurel",
-      descripcion: "descripcion corta 10",
+      nombre_cientifico: "",
+      familia: "",
+      origen: "",
+      descripcion: "descripcion corta 15",
+      id:"20",
+      id2:"t"
     },
     {
       imagen: Pared,
       titulo: "Laurel Rosa",
-      descripcion: "descripcion corta 10",
+      nombre_cientifico: "",
+      familia: "",
+      origen: "",
+      descripcion: "descripcion corta 15",
+      id:"21",
+      id2:"u"
     },
     {
       imagen: Pared,
       titulo: "Lima",
-      descripcion: "descripcion corta 10",
+      nombre_cientifico: "",
+      familia: "",
+      origen: "",
+      descripcion: "descripcion corta 15",
+      id:"22",
+      id2:"v"
     },
     {
-      imagen: Cancha,
+      imagen: Pared,
       titulo: "Liquidambar",
-      descripcion: "descripcion corta",
+      nombre_cientifico: "",
+      familia: "",
+      origen: "",
+      descripcion: "descripcion corta 15",
+      id:"23",
+      id2:"w"
     },
     {
-      imagen: Casa,
-      titulo: "Melia Paraiso",
-      descripcion: "descripcion corta 2",
+      imagen: Pared,
+      titulo: "Melia Paraíso",
+      nombre_cientifico: "",
+      familia: "",
+      origen: "",
+      descripcion: "descripcion corta 15",
+      id:"24",
+      id2:"x"
     },
     {
       imagen: Pared,
       titulo: "Mezquite",
-      descripcion: "descripcion corta 3",
+      nombre_cientifico: "",
+      familia: "",
+      origen: "",
+      descripcion: "descripcion corta 15",
+      id:"25",
+      id2:"y"
     },
     {
       imagen: Pared,
       titulo: "Naranjo",
-      descripcion: "descripcion corta 4",
-    },
-    {
-      imagen: Pared,
-      titulo: "Nispero",
-      descripcion: "descripcion corta 5",
-    },
-    {
-      imagen: Pared,
-      titulo: "Pata de Vaca",
-      descripcion: "descripcion corta 6",
-    },
-    {
-      imagen: Pared,
-      titulo: "Pera",
-      descripcion: "descripcion corta 7",
-    },
-    {
-      imagen: Pared,
-      titulo: "Pino Ayacahuite",
-      descripcion: "descripcion corta 8",
-    },
-    {
-      imagen: Pared,
-      titulo: "Pino Greggi",
-      descripcion: "descripcion corta 9",
-    },
-    {
-      imagen: Pared,
-      titulo: "Pino Moctezuma",
-      descripcion: "descripcion corta 10",
-    },
-    {
-      imagen: Pared,
-      titulo: "Piracanto",
-      descripcion: "descripcion corta 10",
-    },
-    {
-      imagen: Pared,
-      titulo: "Pirul Brasileño",
-      descripcion: "descripcion corta 10",
-    },
-    {
-      imagen: Pared,
-      titulo: "Pirul Chino",
-      descripcion: "descripcion corta 10",
-    },
-    {
-      imagen: Pared,
-      titulo: "Tejocote",
-      descripcion: "descripcion corta 10",
-    },
-    {
-      imagen: Pared,
-      titulo: "Trueno Japonico",
-      descripcion: "descripcion corta 10",
-    },
-    {
-      imagen: Pared,
-      titulo: "Pirul Chino",
-      descripcion: "descripcion corta 10",
-    },
-    {
-      imagen: Pared,
-      titulo: "Tejocote",
-      descripcion: "descripcion corta 10",
-    },
-    {
-      imagen: Pared,
-      titulo: "Trueno Japonico",
-      descripcion: "descripcion corta 10",
+      nombre_cientifico: "",
+      familia: "",
+      origen: "",
+      descripcion: "descripcion corta 15",
+      id:"26",
+      id2:"z"
     },
   ];
 
   return (
     <div className="container row servi">
-      <h1 className="cont-titulo">Nuestro Catálogo</h1>
+      <h1 className="cont-titulo">Nuestros Árboles Disponibles</h1>
       <div className="cont-flex-catalogo">
         {plantas.map((planta) => {
+          let id3 = '#' + planta.id2
           return (
-            <div>
+            <div key = {planta.id}>
               <br />
               <br />
               <div className="card">
@@ -223,29 +287,29 @@ const Catalogo = () => {
                   alt="..."
                 />
                 <div className="card-body">
-                  <h5 className="card-title" id='titulo-map'>{planta.titulo}</h5>
+                  <h5 id="titulo" className="card-title">{planta.titulo}</h5>
                   <button
+                    id={planta.id}
                     type="button"
-                    className="btn btn-primary"
+                    className="btn btn-primary btn-arbol"
                     data-bs-toggle="modal"
-                    data-bs-target="#exampleModal"
-                    id='btn-catalogo'
+                    data-bs-target={id3}
                   >
                     Ver Más
                   </button>
-
                   <div
                     className="modal fade"
-                    id="exampleModal"
+                    id={planta.id2}
                     tabindex="-1"
-                    aria-labelledby="exampleModalLabel"
+                    aria-labelledby={planta.titulo}
                     aria-hidden="true"
                   >
                     <div className="modal-dialog">
                       <div className="modal-content">
                         <div className="modal-header">
-                          <h5 className="modal-title" id="exampleModalLabel">
+                          <h5 className="modal-title" id={planta.titulo}>
                             {planta.titulo}
+                            <h6>{planta.nombre_cientifico}</h6>
                           </h5>
                           <button
                             type="button"
@@ -256,11 +320,14 @@ const Catalogo = () => {
                         </div>
                         <div className="modal-body">
                           <div className="card">
+                            <br />
                             <img
                               src={planta.imagen}
                               className="card-img-top imag"
                               alt="..."
                             />
+                            <br />
+                            <h6><strong>Origen: </strong>{planta.origen}</h6>
                             <p>{planta.descripcion}</p>
                           </div>
                         </div>
@@ -275,7 +342,6 @@ const Catalogo = () => {
                         </div>
                       </div>
                     </div>
-
                   </div>
                 </div>
               </div>
@@ -284,7 +350,6 @@ const Catalogo = () => {
         })}
       </div>
       <br />
-      {/* <h1 className="cont-titulo">Catálogo</h1> */}
     </div>
   );
 };
