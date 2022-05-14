@@ -2,7 +2,7 @@ import "./Catalogo.css";
 import Cancha from "./assets/Cancha.jpeg";
 import Casa from "./assets/Casa.jpeg";
 import Pared from "./assets/Pared.jpeg";
-
+//Hola Tony
 const Catalogo = () => {
   const plantas = [
     {
