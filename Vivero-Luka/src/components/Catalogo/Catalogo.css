@@ -1,0 +1,24 @@
+.imag{
+    border-radius: 5px;
+    height: 180px;
+    width: 250px;
+}
+
+.cont-flex-catalogo{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-basis: 90%
+}
+
+.btn-arbol{
+    background-color: #AECF3E;
+    border: 0 transparent;
+}
+
+.btn-arbol:hover{
+    background-color: #AECF3E;
+    border: 0 transparent;
+}
