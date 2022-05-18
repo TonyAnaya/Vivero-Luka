@@ -22,3 +22,8 @@
     background-color: #AECF3E;
     border: 0 transparent;
 }
+
+#titulo{
+    font-size: 1.2rem !important;
+    color: #192954
+}
