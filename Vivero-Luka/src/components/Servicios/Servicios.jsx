@@ -12,45 +12,44 @@ const Servici = () => {
         <div className="container row" id='flex-container'>
           <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4" id='flex'>
             <div className="col">
-              <NavLink className="nav-link" to="/Servicios">
                 <div className="card">
                   <img src={Planta} className="card-img-top serv-imag " alt="..." />
                   <div className="card-body">
                     <h5 className="card-title services">Compensaciones</h5>
                   </div>
                 </div>
-              </NavLink>
             </div>
             <div className="col">
-              <NavLink className="nav-link" to="/Servicios">
                 <div className="card">
                   <img src={Herramientas} className="card-img-top serv-imag" alt="..." />
                   <div className="card-body">
                     <h5 className="card-title services">Jardinería</h5>
                   </div>
               </div>
-              </NavLink>
             </div>
             <div className="col">
-              <NavLink className="nav-link" to="/Servicios">
                 <div className="card">
                 <img src={Paisaje} className="card-img-top serv-imag" alt="..." />
                   <div className="card-body">
                     <h5 className="card-title services">Paisajismo</h5>
                   </div>
                 </div>
-              </NavLink>
             </div>
             <div className="col">
-              <NavLink className="nav-link" to="/Servicios">
+             
                <div className="card">
                   <img src={Cuidados} className="card-img-top serv-imag" alt="..." />
                   <div className="card-body">
                     <h5 className="card-title services">Consejos y Cuidados</h5>
                   </div>
                 </div>
-              </NavLink>
+
             </div>
+          </div>
+          <div className="conoceMas">
+          <NavLink className="nav-link" to="/Servicios">
+            <h4>Conoce más</h4>
+            </NavLink>
           </div>
         </div>
       </div>

@@ -30,6 +30,10 @@
   border: none;
 }
 
+.conoceMas{
+  text-align: right;
+}
+
 #flex-container {
   margin: 0 auto;
 }

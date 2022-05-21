@@ -2,7 +2,8 @@ import "./Catalogo.css";
 import Cancha from "./assets/Cancha.jpeg";
 import Casa from "./assets/Casa.jpeg";
 import Pared from "./assets/Pared.jpeg";
-//Hola Tony
+import germinacion from "./assets/germinacion.jpg"
+
 const Catalogo = () => {
   const plantas = [
     {
@@ -12,8 +13,8 @@ const Catalogo = () => {
       familia: "",
       origen: "",
       descripcion: "descripcion corta",
-      id:"1",
-      id2:"a"
+      id: "1",
+      id2: "a",
       //nombre coloquial
       //nombre cientifico
       //Grosor 3/4 cm * altura promedio
@@ -25,8 +26,8 @@ const Catalogo = () => {
       familia: "",
       origen: "",
       descripcion: "descripcion corta 2",
-      id:"2",
-      id2:"b"
+      id: "2",
+      id2: "b",
     },
     {
       imagen: Pared,
@@ -35,8 +36,8 @@ const Catalogo = () => {
       familia: "",
       origen: "",
       descripcion: "descripcion corta 3",
-      id:"3",
-      id2:"c"
+      id: "3",
+      id2: "c",
     },
     {
       imagen: Pared,
@@ -45,8 +46,8 @@ const Catalogo = () => {
       familia: "",
       origen: "",
       descripcion: "descripcion corta 4",
-      id:"4",
-      id2:"d"
+      id: "4",
+      id2: "d",
     },
     {
       imagen: Pared,
@@ -55,8 +56,8 @@ const Catalogo = () => {
       familia: "",
       origen: "",
       descripcion: "descripcion corta 5",
-      id:"5",
-      id2:"e"
+      id: "5",
+      id2: "e",
     },
     {
       imagen: Pared,
@@ -65,8 +66,8 @@ const Catalogo = () => {
       familia: "",
       origen: "",
       descripcion: "descripcion corta 6",
-      id:"6",
-      id2:"f"
+      id: "6",
+      id2: "f",
     },
     {
       imagen: Pared,
@@ -75,8 +76,8 @@ const Catalogo = () => {
       familia: "",
       origen: "",
       descripcion: "descripcion corta 7",
-      id:"7",
-      id2:"g"
+      id: "7",
+      id2: "g",
     },
     {
       imagen: Pared,
@@ -85,8 +86,8 @@ const Catalogo = () => {
       familia: "",
       origen: "",
       descripcion: "descripcion corta 8",
-      id:"8",
-      id2:"h"
+      id: "8",
+      id2: "h",
     },
     {
       imagen: Pared,
@@ -95,8 +96,8 @@ const Catalogo = () => {
       familia: "",
       origen: "",
       descripcion: "descripcion corta 9",
-      id:"9",
-      id2:"i"
+      id: "9",
+      id2: "i",
     },
     {
       imagen: Pared,
@@ -105,8 +106,8 @@ const Catalogo = () => {
       familia: "",
       origen: "",
       descripcion: "descripcion corta 10",
-      id:"10",
-      id2:"j"
+      id: "10",
+      id2: "j",
     },
     {
       imagen: Pared,
@@ -115,8 +116,8 @@ const Catalogo = () => {
       familia: "",
       origen: "",
       descripcion: "descripcion corta 11",
-      id:"11",
-      id2:"k"
+      id: "11",
+      id2: "k",
     },
     {
       imagen: Pared,
@@ -125,8 +126,8 @@ const Catalogo = () => {
       familia: "",
       origen: "",
       descripcion: "descripcion corta 12",
-      id:"12",
-      id2:"l"
+      id: "12",
+      id2: "l",
     },
     {
       imagen: Pared,
@@ -135,8 +136,8 @@ const Catalogo = () => {
       familia: "",
       origen: "",
       descripcion: "descripcion corta 13",
-      id:"13",
-      id2:"m"
+      id: "13",
+      id2: "m",
     },
     {
       imagen: Pared,
@@ -145,8 +146,8 @@ const Catalogo = () => {
       familia: "",
       origen: "",
       descripcion: "descripcion corta 14",
-      id:"14",
-      id2:"n"
+      id: "14",
+      id2: "n",
     },
     {
       imagen: Pared,
@@ -155,8 +156,8 @@ const Catalogo = () => {
       familia: "",
       origen: "",
       descripcion: "descripcion corta 15",
-      id:"15",
-      id2:"o"
+      id: "15",
+      id2: "o",
     },
     {
       imagen: Pared,
@@ -165,8 +166,8 @@ const Catalogo = () => {
       familia: "",
       origen: "",
       descripcion: "descripcion corta 15",
-      id:"16",
-      id2:"p"
+      id: "16",
+      id2: "p",
     },
     {
       imagen: Pared,
@@ -175,8 +176,8 @@ const Catalogo = () => {
       familia: "",
       origen: "",
       descripcion: "descripcion corta 15",
-      id:"17",
-      id2:"q"
+      id: "17",
+      id2: "q",
     },
     {
       imagen: Pared,
@@ -185,8 +186,8 @@ const Catalogo = () => {
       familia: "",
       origen: "",
       descripcion: "descripcion corta 15",
-      id:"18",
-      id2:"r"
+      id: "18",
+      id2: "r",
     },
     {
       imagen: Pared,
@@ -194,9 +195,10 @@ const Catalogo = () => {
       nombre_cientifico: "Jacaranda mimosifolia",
       familia: "Bignoniáceas",
       origen: "Bolivia y Argentina (Jujuy, Salta y Tucumán)",
-      descripcion: "Árbol de porte mediano, puede alcanzar 18 metros de altura. Corteza oscura cuando es adulto. Follaje semipersistente o tardíamente caedizo. Flores en forma de tubo, de color azul violáceo, agrupadas en los extremos de las ramas. La floración se produce antes de la aparición de las hojas, en octubre, y suele repetirse con menor intensidad en otoño. El fruto es leñoso y recuerda a una castañuela. ",
-      id:"19",
-      id2:"s"
+      descripcion:
+        "Árbol de porte mediano, puede alcanzar 18 metros de altura. Corteza oscura cuando es adulto. Follaje semipersistente o tardíamente caedizo. Flores en forma de tubo, de color azul violáceo, agrupadas en los extremos de las ramas. La floración se produce antes de la aparición de las hojas, en octubre, y suele repetirse con menor intensidad en otoño. El fruto es leñoso y recuerda a una castañuela. ",
+      id: "19",
+      id2: "s",
     },
     {
       imagen: Pared,
@@ -205,8 +207,8 @@ const Catalogo = () => {
       familia: "",
       origen: "",
       descripcion: "descripcion corta 15",
-      id:"20",
-      id2:"t"
+      id: "20",
+      id2: "t",
     },
     {
       imagen: Pared,
@@ -215,8 +217,8 @@ const Catalogo = () => {
       familia: "",
       origen: "",
       descripcion: "descripcion corta 15",
-      id:"21",
-      id2:"u"
+      id: "21",
+      id2: "u",
     },
     {
       imagen: Pared,
@@ -225,8 +227,8 @@ const Catalogo = () => {
       familia: "",
       origen: "",
       descripcion: "descripcion corta 15",
-      id:"22",
-      id2:"v"
+      id: "22",
+      id2: "v",
     },
     {
       imagen: Pared,
@@ -235,8 +237,8 @@ const Catalogo = () => {
       familia: "",
       origen: "",
       descripcion: "descripcion corta 15",
-      id:"23",
-      id2:"w"
+      id: "23",
+      id2: "w",
     },
     {
       imagen: Pared,
@@ -245,8 +247,8 @@ const Catalogo = () => {
       familia: "",
       origen: "",
       descripcion: "descripcion corta 15",
-      id:"24",
-      id2:"x"
+      id: "24",
+      id2: "x",
     },
     {
       imagen: Pared,
@@ -255,8 +257,8 @@ const Catalogo = () => {
       familia: "",
       origen: "",
       descripcion: "descripcion corta 15",
-      id:"25",
-      id2:"y"
+      id: "25",
+      id2: "y",
     },
     {
       imagen: Pared,
@@ -265,91 +267,133 @@ const Catalogo = () => {
       familia: "",
       origen: "",
       descripcion: "descripcion corta 15",
-      id:"26",
-      id2:"z"
+      id: "26",
+      id2: "z",
     },
   ];
 
   return (
-    <div className="container row servi">
-      <h1 className="cont-titulo">Nuestros Árboles Disponibles</h1>
-      <div className="cont-flex-catalogo">
-        {plantas.map((planta) => {
-          let id3 = '#' + planta.id2
-          return (
-            <div key = {planta.id}>
-              <br />
-              <br />
-              <div className="card">
-                <img
-                  src={planta.imagen}
-                  className="card-img-top imag"
-                  alt="..."
-                />
-                <div className="card-body">
-                  <h5 id="titulo" className="card-title">{planta.titulo}</h5>
-                  <button
-                    id={planta.id}
-                    type="button"
-                    className="btn btn-primary btn-arbol"
-                    data-bs-toggle="modal"
-                    data-bs-target={id3}
-                  >
-                    Ver Más
-                  </button>
-                  <div
-                    className="modal fade"
-                    id={planta.id2}
-                    tabindex="-1"
-                    aria-labelledby={planta.titulo}
-                    aria-hidden="true"
-                  >
-                    <div className="modal-dialog">
-                      <div className="modal-content">
-                        <div className="modal-header">
-                          <h5 className="modal-title" id={planta.titulo}>
-                            {planta.titulo}
-                            <h6>{planta.nombre_cientifico}</h6>
-                          </h5>
-                          <button
-                            type="button"
-                            className="btn-close"
-                            data-bs-dismiss="modal"
-                            aria-label="Close"
-                          ></button>
-                        </div>
-                        <div className="modal-body">
-                          <div className="card">
-                            <br />
-                            <img
-                              src={planta.imagen}
-                              className="card-img-top imag"
-                              alt="..."
-                            />
-                            <br />
-                            <h6><strong>Origen: </strong>{planta.origen}</h6>
-                            <p>{planta.descripcion}</p>
+    <div>
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src={germinacion} class="img-fluid rounded-start" alt="..."  id='germiacionimg'/>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">El proceso de Germinación</h5>
+              <p class="card-text">
+                La germinación es el nacimiento, si se me permite la palabra, de
+                una planta. Es el primer paso que da en su vida, y el más
+                importante. Le puede haber llevado tan solo unos días, que es lo
+                que tardan en brotar muchas hierbas, o quizás varios años, como
+                les ocurre a algunos árboles que viven en las regiones de clima
+                extremadamente frío del mundo. Pero lo que está claro es que,
+                aquellas que consiguen germinar, son unas afortunadas, pues la
+                semilla tiene que estar en buenas condiciones para poder cumplir
+                con su función. Pero, ¿cuáles son esas condiciones? Es decir,
+                ¿qué características debe tener para germinar? Son las
+                siguientes: Ha de haber madurado. Tiene que estar completamente
+                desarrollada y tener su tamaño definitivo. Debe ser viable;
+                dicho de otro modo: ha de tener los medios para que la
+                germinación se dé. Y eso solo es posible cuando la flor es
+                polinizada, ya que es cuando el ovario es fertilizado. Es
+                crucial que esté sana y en buen estado. Si ha sido atacada por
+                algún enemigo (animal o microorganismo) será difícil que
+                germine.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+
+      <div className="container row servi">
+        <h1 className="cont-titulo">Nuestros Árboles Disponibles</h1>
+        <div className="cont-flex-catalogo">
+          {plantas.map((planta) => {
+            let id3 = "#" + planta.id2;
+            return (
+              <div key={planta.id}>
+                <br />
+                <br />
+                <div className="card">
+                  <img
+                    src={planta.imagen}
+                    className="card-img-top imag"
+                    alt="..."
+                  />
+                  <div className="card-body">
+                    <h5 id="titulo" className="card-title">
+                      {planta.titulo}
+                    </h5>
+                    <button
+                      id={planta.id}
+                      type="button"
+                      className="btn btn-primary btn-arbol"
+                      data-bs-toggle="modal"
+                      data-bs-target={id3}
+                    >
+                      Ver Más
+                    </button>
+                    <div
+                      className="modal fade"
+                      id={planta.id2}
+                      tabindex="-1"
+                      aria-labelledby={planta.titulo}
+                      aria-hidden="true"
+                    >
+                      <div className="modal-dialog">
+                        <div className="modal-content">
+                          <div className="modal-header">
+                            <h5 className="modal-title" id={planta.titulo}>
+                              {planta.titulo}
+                              <h6>{planta.nombre_cientifico}</h6>
+                            </h5>
+                            <button
+                              type="button"
+                              className="btn-close"
+                              data-bs-dismiss="modal"
+                              aria-label="Close"
+                            ></button>
                           </div>
-                        </div>
-                        <div className="modal-footer">
-                          <button
-                            type="button"
-                            className="btn btn-secondary"
-                            data-bs-dismiss="modal"
-                          >
-                            Cerrar
-                          </button>
+                          <div className="modal-body">
+                            <div className="card">
+                              <br />
+                              <img
+                                src={planta.imagen}
+                                className="card-img-top imag"
+                                alt="..."
+                              />
+                              <br />
+                              <h6>
+                                <strong>Origen: </strong>
+                                {planta.origen}
+                              </h6>
+                              <p>{planta.descripcion}</p>
+                            </div>
+                          </div>
+                          <div className="modal-footer">
+                            <button
+                              type="button"
+                              className="btn btn-secondary"
+                              data-bs-dismiss="modal"
+                            >
+                              Cerrar
+                            </button>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
+        <br />
       </div>
-      <br />
     </div>
   );
 };

@@ -36,7 +36,6 @@ const ServiciosAcor = () => {
         <img src={foto9} alt="img" className="imgFlexServ"/>
       </div>
       <br />
-      <h1 className="tituloServicios">Consejos y cuidados</h1>
     </div>
   );
 };
