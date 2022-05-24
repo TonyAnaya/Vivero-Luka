@@ -3,6 +3,7 @@ import Cancha from "./assets/Cancha.jpeg";
 import Casa from "./assets/Casa.jpeg";
 import Pared from "./assets/Pared.jpeg";
 import germinacion from "./assets/germinacion.jpg"
+import catalogofoto from './assets/catalogofoto.png'
 
 const Catalogo = () => {
   const plantas = [
@@ -274,6 +275,18 @@ const Catalogo = () => {
 
   return (
     <div>
+    <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
+    <div className="carousel-inner">
+      <div className="carousel-item active">
+        <img src={catalogofoto} className="d-block w-100 imagencita" alt="..." />
+        <div className="carousel-caption d-none d-md-block" id='tituloImg'>
+          <h5>Nuestro Catálogo</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br />
+  <br />
       <div class="card mb-3">
         <div class="row g-0">
           <div class="col-md-4">
