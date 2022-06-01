@@ -36,14 +36,12 @@ const Servici = () => {
                 </div>
             </div>
             <div className="col">
-             
                <div className="card">
                   <img src={Cuidados} className="card-img-top serv-imag" alt="..." />
                   <div className="card-body">
-                    <h5 className="card-title services">Consejos y Cuidados</h5>
+                    <h5 className="card-title services">Césped</h5>
                   </div>
                 </div>
-
             </div>
           </div>
           <div className="conoceMas">
