@@ -2,8 +2,8 @@ import "./Catalogo.css";
 import Cancha from "./assets/Cancha.jpeg";
 import Casa from "./assets/Casa.jpeg";
 import Pared from "./assets/Pared.jpeg";
-import germinacion from "./assets/germinacion.jpg"
-import catalogofoto from './assets/catalogofoto.png'
+import germinacion from "./assets/germinacion.jpg";
+import catalogofoto from "./assets/catalogofoto.png";
 
 const Catalogo = () => {
   const plantas = [
@@ -275,22 +275,35 @@ const Catalogo = () => {
 
   return (
     <div>
-    <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
-    <div className="carousel-inner">
-      <div className="carousel-item active">
-        <img src={catalogofoto} className="d-block w-100 imagencita" alt="..." />
-        <div className="carousel-caption d-none d-md-block" id='tituloImg'>
-          <h5>Nuestro Catálogo</h5>
+      <div
+        id="carouselExampleCaptions"
+        className="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <img
+              src={catalogofoto}
+              className="d-block w-100 imagencita"
+              alt="..."
+            />
+            <div className="carousel-caption d-none d-md-block" id="tituloImg">
+              <h5>Catálogo</h5>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-  <br />
-  <br />
+      <br />
+      <br />
       <div class="card mb-3">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src={germinacion} class="img-fluid rounded-start" alt="..."  id='germiacionimg'/>
+            <img
+              src={germinacion}
+              class="img-fluid rounded-start"
+              alt="..."
+              id="germiacionimg"
+            />
           </div>
           <div class="col-md-8">
             <div class="card-body">
@@ -301,19 +314,19 @@ const Catalogo = () => {
                 importante. Le puede haber llevado tan solo unos días, que es lo
                 que tardan en brotar muchas hierbas, o quizás varios años, como
                 les ocurre a algunos árboles que viven en las regiones de clima
-                extremadamente frío del mundo. Pero lo que está claro es que,
-                aquellas que consiguen germinar, son unas afortunadas, pues la
-                semilla tiene que estar en buenas condiciones para poder cumplir
-                con su función. Pero, ¿cuáles son esas condiciones? Es decir,
-                ¿qué características debe tener para germinar? Son las
+                extremadamente frío del mundo. <br /> Pero lo que está claro es
+                que, aquellas que consiguen germinar, son unas afortunadas, pues
+                la semilla tiene que estar en buenas condiciones para poder
+                cumplir con su función. Pero, ¿cuáles son esas condiciones? Es
+                decir, ¿qué características debe tener para germinar? Son las
                 siguientes: Ha de haber madurado. Tiene que estar completamente
                 desarrollada y tener su tamaño definitivo. Debe ser viable;
                 dicho de otro modo: ha de tener los medios para que la
-                germinación se dé. Y eso solo es posible cuando la flor es
-                polinizada, ya que es cuando el ovario es fertilizado. Es
-                crucial que esté sana y en buen estado. Si ha sido atacada por
-                algún enemigo (animal o microorganismo) será difícil que
-                germine.
+                germinación se dé.
+                <br />Y eso solo es posible cuando la flor es polinizada, ya que
+                es cuando el ovario es fertilizado. Es crucial que esté sana y
+                en buen estado. Si ha sido atacada por algún enemigo (animal o
+                microorganismo) será difícil que germine.
               </p>
             </div>
           </div>
